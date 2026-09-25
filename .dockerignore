@@ -1,0 +1,50 @@
+# Git and repository metadata
+.git/
+.gitignore
+.github/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Raw datasets
+Dataset/
+
+# Generated/processed data
+Processed/
+
+# Generated models and outputs
+models/
+outputs/
+
+# Large generated files
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.npy
+*.npz
+*.pkl
+*.pickle
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+
+# Local environments
+.venv/
+venv/
+env/
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
