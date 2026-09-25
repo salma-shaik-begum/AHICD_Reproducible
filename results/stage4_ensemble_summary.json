@@ -1,0 +1,20 @@
+{
+  "individual_model_val_f1": {
+    "xgboost": 0.48480759538509377,
+    "random_forest": 0.3180051971001472,
+    "svm": 0.5465593068175899,
+    "mlp": 0.49250684051113575,
+    "logistic_regression": 0.5421871664421098
+  },
+  "ensemble_weights": {
+    "xgboost": 0.20335325187204342,
+    "random_forest": 0.1333877430100043,
+    "svm": 0.22925509715664028,
+    "mlp": 0.2065827114519763,
+    "logistic_regression": 0.22742119650933562
+  },
+  "ensemble_val_macro_f1": 0.5233218718279756,
+  "ensemble_test_macro_f1": 0.5239190039483944,
+  "mean_confidence_correct": 0.8128703853150651,
+  "mean_confidence_incorrect": 0.6182787316394808
+}

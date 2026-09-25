@@ -1,0 +1,9 @@
+{
+  "n_train": 1582,
+  "n_val": 339,
+  "n_test": 339,
+  "val_macro_f1": 0.7150841290081796,
+  "test_macro_f1": 0.7463810940085106,
+  "test_qwk": 0.7757279973971043,
+  "note": "APTOS excluded (no DME labels available); trained on IDRiD+Messidor DR-optimized feature subset."
+}

@@ -1,0 +1,62 @@
+{
+  "in_distribution": {
+    "macro_f1": {
+      "point_estimate": 0.5239190039483944,
+      "ci_lower": 0.4535538165523209,
+      "ci_upper": 0.5839923619306442,
+      "bootstrap_std": 0.033112108148390815
+    },
+    "qwk": {
+      "point_estimate": 0.7623906154276682,
+      "ci_lower": 0.7086083306957339,
+      "ci_upper": 0.8070329978445013,
+      "bootstrap_std": 0.024788317803027246
+    }
+  },
+  "cross_dataset": {
+    "APTOS": {
+      "macro_f1": {
+        "point_estimate": 0.4115221322172279,
+        "ci_lower": 0.3723852755496146,
+        "ci_upper": 0.4472848414944997,
+        "bootstrap_std": 0.01927103064596424
+      },
+      "qwk": {
+        "point_estimate": 0.6576859612832255,
+        "ci_lower": 0.6161754260665898,
+        "ci_upper": 0.6969502544809657,
+        "bootstrap_std": 0.020760585587615937
+      }
+    },
+    "IDRiD": {
+      "macro_f1": {
+        "point_estimate": 0.3911103535018844,
+        "ci_lower": 0.3523666060046507,
+        "ci_upper": 0.42849083992467923,
+        "bootstrap_std": 0.019800026929407084
+      },
+      "qwk": {
+        "point_estimate": 0.7066245265507813,
+        "ci_lower": 0.6586353150584514,
+        "ci_upper": 0.7516445425161119,
+        "bootstrap_std": 0.023946628283375165
+      }
+    },
+    "Messidor": {
+      "macro_f1": {
+        "point_estimate": 0.2969019984519804,
+        "ci_lower": 0.25493987185470474,
+        "ci_upper": 0.3368398978699811,
+        "bootstrap_std": 0.021104910695032893
+      },
+      "qwk": {
+        "point_estimate": 0.37179997049671,
+        "ci_lower": 0.31638033526487047,
+        "ci_upper": 0.4219740727084497,
+        "bootstrap_std": 0.027101614744697387
+      }
+    }
+  },
+  "n_bootstrap": 2000,
+  "method": "Non-parametric bootstrap resampling (2000 iterations) of prediction pairs; 95% CIs via percentile method. Cross-dataset CIs reconstructed from stored confusion matrices (label-preserving resampling)."
+}

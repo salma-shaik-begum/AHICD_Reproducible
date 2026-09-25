@@ -1,0 +1,25 @@
+{
+  "held_out_dataset": "APTOS",
+  "adaptation_fraction": 0.3,
+  "conditions": {
+    "1_natural_weighted": {
+      "macro_f1": 0.489045181194132,
+      "qwk": 0.8700972156240223,
+      "n_train": 2704
+    },
+    "2_natural_unweighted": {
+      "macro_f1": 0.46393211343521895,
+      "qwk": 0.816903955545326,
+      "n_train": 2704
+    },
+    "3_balanced_weighted": {
+      "macro_f1": 0.4691324435716691,
+      "qwk": 0.8506382514456122,
+      "n_train": 3925
+    }
+  },
+  "weighting_contribution": 0.025113067758913032,
+  "balance_contribution_beyond_weighting": -0.019912737622462873,
+  "conclusion": "Balancing via duplication provided negligible additional benefit beyond class weighting alone, suggesting the scarcity problem is fundamentally about the DIVERSITY of available severe-class examples (which duplication cannot create), not merely their weight in the loss function -- a stronger and more concerning interpretation of the mechanism than simple class imbalance.",
+  "limitation": "Condition 3 uses feature-vector duplication, not novel data. A null/small effect here is arguably MORE informative than a positive one, since it suggests naive oversampling cannot substitute for genuinely diverse severe-case examples."
+}

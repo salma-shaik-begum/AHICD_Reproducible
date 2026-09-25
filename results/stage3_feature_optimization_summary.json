@@ -1,0 +1,10 @@
+{
+  "n_features_total": 1697,
+  "n_features_selected": 768,
+  "val_macro_f1": 0.5421871664421098,
+  "test_macro_f1": 0.4886539250834286,
+  "cnn_features_kept": 578,
+  "vit_features_kept": 174,
+  "handcrafted_features_kept": 16,
+  "selection_method": "NSGA-II knee-point (min distance to utopia in normalized objective space)"
+}

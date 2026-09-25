@@ -1,0 +1,16 @@
+{
+  "primary_method": "confidence-threshold referral (v1) \u2014 recommended as headline result",
+  "v1_confidence_only": {
+    "sensitivity": 0.8742,
+    "specificity": 0.8333,
+    "false_negatives": 20,
+    "false_positives": 67
+  },
+  "v2_probability_mass_aware": {
+    "sensitivity": 0.8868,
+    "specificity": 0.791,
+    "false_negatives": 18,
+    "false_positives": 84
+  },
+  "conclusion": "v2 marginally improves sensitivity (+1.3pp) at a disproportionate specificity cost (-4.2pp, +17 false positives for 2 fewer false negatives). v1 offers better balance. Remaining 18 false negatives in v2 show near-zero model probability on the correct grade (mostly <0.15), indicating a genuine classifier-level limitation rather than a decision-threshold problem \u2014 primarily affecting true grade 2 (moderate NPDR) cases."
+}

@@ -1,0 +1,13 @@
+{
+  "n_samples": 1200,
+  "n_samples_per_dataset": {
+    "APTOS": 400,
+    "IDRiD": 400,
+    "Messidor": 400
+  },
+  "inter_dataset_centroid_distances": {
+    "APTOS_vs_IDRiD": 18.305809265752067,
+    "APTOS_vs_Messidor": 14.762134492336422,
+    "IDRiD_vs_Messidor": 27.51261436480346
+  }
+}

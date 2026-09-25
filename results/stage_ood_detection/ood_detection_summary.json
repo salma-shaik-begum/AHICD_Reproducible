@@ -1,0 +1,25 @@
+{
+  "pca_components_sweep": {
+    "10": 0.48778733228494,
+    "30": 0.5181517047545756,
+    "50": 0.5041489610867601,
+    "100": 0.49548298591360795
+  },
+  "best_n_components": 30,
+  "best_auc": 0.5181517047545756,
+  "ood_by_dataset": {
+    "APTOS": {
+      "mean": 5.405502146184777,
+      "std": 1.1663914410964702
+    },
+    "IDRiD": {
+      "mean": 6.067674541868423,
+      "std": 1.179661430191546
+    },
+    "Messidor": {
+      "mean": 4.763243878009673,
+      "std": 0.7203155075344042
+    }
+  },
+  "note": "Raw 768-d Mahalanobis (no PCA) was empirically uninformative (AUC=0.486), attributed to covariance-estimation instability given ~2600 training samples vs 768 dimensions. PCA dimensionality reduction was applied to address this."
+}

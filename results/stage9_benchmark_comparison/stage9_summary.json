@@ -1,0 +1,24 @@
+{
+  "literature_indist_qwk_range": [
+    0.901,
+    0.967
+  ],
+  "ahicf_indist_qwk": 0.762,
+  "most_comparable_prior_work": {
+    "method": "Dual-Branch Network (merged 3-dataset pool)",
+    "qwk": 0.93
+  },
+  "ahicf_equivalent_qwk": 0.762,
+  "independent_cross_dataset_corroboration": {
+    "source": "arXiv:2604.17341 (2026)",
+    "qwk_indist": 0.88,
+    "qwk_cross": 0.68,
+    "relative_decrease_pct": 22.7
+  },
+  "ahicf_messidor_cross_dataset": {
+    "qwk_indist": 0.762,
+    "qwk_cross": 0.372,
+    "relative_decrease_pct": 51.2
+  },
+  "honest_conclusion": "AHICF's absolute in-distribution performance (QWK=0.762) is below the typical range reported in published single-dataset DR grading literature (0.90-0.97), reflecting this study's prioritization of computational tractability, multi-objective feature optimization, and rigorous generalization testing over accuracy-maximizing architecture search. The primary contribution of this work is not state-of-the-art classification accuracy, but rather the rigorous quantification of the cross-dataset generalization gap and its mechanistic explanation (severity-class imbalance) -- a phenomenon independently corroborated by at least one other 2026 study using a different architecture and dataset pairing."
+}

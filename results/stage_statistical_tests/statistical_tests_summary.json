@@ -1,0 +1,10 @@
+{
+  "wilcoxon_kfold_vs_cross_dataset": {
+    "label_a": "5-fold CV (within-distribution)",
+    "label_b": "Leave-one-dataset-out (cross-distribution)",
+    "statistic": 0.0,
+    "p_value": 0.25,
+    "significant": false,
+    "caveat": "n=3 paired samples \u2014 illustrative only, not a primary statistical claim"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "conclusion": "DME risk NOT adopted as an independent referral trigger",
+  "rationale": "Naive comparison (DR-only vs DR+DME) showed +16.4pp sensitivity gain, but this was confounded by the precautionary low-confidence trigger present in both DME-inclusive rules but absent from the naive DR-only baseline. Controlled comparison isolating this confound (Stage 6 rule alone vs Stage 6 rule + severe DME trigger) showed DME's true marginal contribution was negligible: 0 additional true positives, 1 additional false positive, 0.45pp specificity cost, 0pp sensitivity gain.",
+  "rule_A_dr_only": {
+    "sensitivity": 0.681,
+    "specificity": 0.9417
+  },
+  "rule_B_stage6_no_dme": {
+    "sensitivity": 0.8362,
+    "specificity": 0.7489
+  },
+  "rule_C_stage6_plus_dme": {
+    "sensitivity": 0.8362,
+    "specificity": 0.7444
+  },
+  "dme_marginal_effect": "negligible \u2014 0pp sensitivity, -0.45pp specificity",
+  "dme_classifier_standalone_value": "retained as auxiliary finding \u2014 macro-F1=0.746 exceeds DR grading (0.524)"
+}

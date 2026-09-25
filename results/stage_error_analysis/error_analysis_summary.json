@@ -1,0 +1,70 @@
+{
+  "per_class_errors": [
+    {
+      "true_grade": 0,
+      "n": 345,
+      "error_rate": 0.05507246376811592,
+      "avg_error_magnitude": 1.5263157894736843,
+      "most_common_wrong_prediction": 1
+    },
+    {
+      "true_grade": 1,
+      "n": 57,
+      "error_rate": 0.8421052631578947,
+      "avg_error_magnitude": 1.0208333333333333,
+      "most_common_wrong_prediction": 0
+    },
+    {
+      "true_grade": 2,
+      "n": 107,
+      "error_rate": 0.4112149532710281,
+      "avg_error_magnitude": 1.7954545454545454,
+      "most_common_wrong_prediction": 0
+    },
+    {
+      "true_grade": 3,
+      "n": 29,
+      "error_rate": 0.6206896551724138,
+      "avg_error_magnitude": 1.1111111111111112,
+      "most_common_wrong_prediction": 2
+    },
+    {
+      "true_grade": 4,
+      "n": 23,
+      "error_rate": 0.6086956521739131,
+      "avg_error_magnitude": 1.9285714285714286,
+      "most_common_wrong_prediction": 2
+    }
+  ],
+  "n_confidently_wrong": 45,
+  "n_total_errors": 143,
+  "pct_adjacent_class_errors": 60.13986013986013,
+  "error_rate_by_dataset": {
+    "Messidor": {
+      "n": 262,
+      "error_rate": 0.3396946564885496
+    },
+    "APTOS": {
+      "n": 222,
+      "error_rate": 0.10360360360360366
+    },
+    "IDRiD": {
+      "n": 77,
+      "error_rate": 0.4025974025974026
+    }
+  },
+  "quality_vs_confidently_wrong": {
+    "blur_score": {
+      "confidently_wrong_mean": 398.91080164480604,
+      "rest_mean": 414.36286528345687
+    },
+    "brightness": {
+      "confidently_wrong_mean": 83.05783951601474,
+      "rest_mean": 85.14188289778122
+    },
+    "contrast": {
+      "confidently_wrong_mean": 40.3332452646781,
+      "rest_mean": 42.41735586613999
+    }
+  }
+}

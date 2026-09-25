@@ -1,0 +1,25 @@
+{
+  "held_out_dataset": "Messidor",
+  "adaptation_fraction": 0.3,
+  "conditions": {
+    "1_natural_weighted": {
+      "macro_f1": 0.35077441910995283,
+      "qwk": 0.4719165063062042,
+      "n_train": 2519
+    },
+    "2_natural_unweighted": {
+      "macro_f1": 0.30493433058960007,
+      "qwk": 0.4168128951475658,
+      "n_train": 2519
+    },
+    "3_balanced_weighted": {
+      "macro_f1": 0.37813032855407736,
+      "qwk": 0.5069094602589542,
+      "n_train": 3521
+    }
+  },
+  "weighting_contribution": 0.04584008852035276,
+  "balance_contribution_beyond_weighting": 0.027355909444124527,
+  "conclusion": "Balancing severity representation improves performance beyond what class weighting alone achieves, supporting a genuine representation/diversity mechanism rather than a pure loss-weighting effect.",
+  "limitation": "Condition 3 uses feature-vector duplication, not novel data. A null/small effect here is arguably MORE informative than a positive one, since it suggests naive oversampling cannot substitute for genuinely diverse severe-case examples."
+}
