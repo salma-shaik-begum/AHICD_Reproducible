@@ -1,0 +1,562 @@
+unique_id,dataset,true_dr_grade,predicted_dr_grade,confidence_score,proba_referral_needed,referral_decision,urgency,reason
+20060410_39500_0200_PP,Messidor,0,0,0.6369480607088599,0.054544840375521,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+68ddb15a74de,APTOS,0,0,0.842798344126592,0.0355207869087261,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+IDRiD_348_train,IDRiD,2,4,0.4890993442083053,0.9825329964378102,REFER,URGENT,"Predicted grade 4 — sight-threatening, refer promptly"
+20060412_59012_0200_PP,Messidor,1,2,0.6727436162492092,0.6814298045936685,REFER,ROUTINE,Predicted grade 2 — refer for ophthalmologist review
+19113e5f45ec,APTOS,2,2,0.9079141105967474,0.9384058656782885,REFER,ROUTINE,Predicted grade 2 — refer for ophthalmologist review
+bd500a73beae,APTOS,0,0,0.8970162589823767,0.0708548817142358,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+IM002909,Messidor,0,0,0.9135130043849008,0.04901592979001681,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+19722bff5a09,APTOS,1,1,0.8854212347881918,0.0631588663529919,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 1, high confidence, low referral-risk probability mass"
+20060529_56834_0100_PP,Messidor,2,2,0.6972203175398654,0.7205413253574185,REFER,ROUTINE,Predicted grade 2 — refer for ophthalmologist review
+5b3d41626ec5,APTOS,0,0,0.9769444937019076,0.011976100931202398,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+83a63c4a3e4a,APTOS,0,0,0.9854577749293714,0.0075978745212349,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+20060411_61869_0200_PP,Messidor,0,1,0.532293076028684,0.04375663517826801,REFER,PRECAUTIONARY,Predicted grade 1 but low overall confidence (0.53)
+5a0fe0ee4301,APTOS,0,0,0.9738772646427764,0.0158180567307418,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+20060530_53271_0100_PP,Messidor,3,2,0.717349199052239,0.8095277927890696,REFER,ROUTINE,Predicted grade 2 — refer for ophthalmologist review
+IDRiD_375_train,IDRiD,2,2,0.9145352962755752,0.9858069194087866,REFER,ROUTINE,Predicted grade 2 — refer for ophthalmologist review
+20051214_56944_0100_PP,Messidor,4,0,0.3447994602226285,0.4121104028304664,REFER,PRECAUTIONARY,"Predicted grade 0, but 41.2% probability mass on grade>=2 — flagged despite low-severity top prediction"
+IM000923,Messidor,0,0,0.8804887752289512,0.0673623738452183,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+20051020_57967_0100_PP,Messidor,0,0,0.6956503538778274,0.0312849409599449,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+1d37f1c8b6d8,APTOS,0,0,0.9933330061944036,0.0041686853470775005,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+IM004005,Messidor,0,0,0.952586782324004,0.030795661680026277,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+20060412_58723_0200_PP,Messidor,0,0,0.7470384195673699,0.07451927809178499,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+IDRiD_029_train,IDRiD,2,2,0.4319661188735855,0.9787652782023166,REFER,ROUTINE,Predicted grade 2 — refer for ophthalmologist review
+IM003603,Messidor,1,0,0.957825312872672,0.0209379987165572,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+IDRiD_229_train,IDRiD,0,2,0.4575044379342614,0.5487318300712315,REFER,ROUTINE,Predicted grade 2 — refer for ophthalmologist review
+188a9323be03,APTOS,2,2,0.6326921445377451,0.8686773680886843,REFER,ROUTINE,Predicted grade 2 — refer for ophthalmologist review
+IDRiD_338_train,IDRiD,2,2,0.8033859653209232,0.8561649874129535,REFER,ROUTINE,Predicted grade 2 — refer for ophthalmologist review
+20051130_54846_0400_PP,Messidor,0,0,0.8710464358193803,0.0309468104598946,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+07d8db76b301,APTOS,2,2,0.8778752028873574,0.9207775423945964,REFER,ROUTINE,Predicted grade 2 — refer for ophthalmologist review
+IDRiD_364_train,IDRiD,3,3,0.8040104129433142,0.9735606073340306,REFER,URGENT,"Predicted grade 3 — sight-threatening, refer promptly"
+6f0e5848d9ce,APTOS,0,0,0.97037560959053,0.0161747427611909,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+0e82bcacc475,APTOS,4,4,0.6715374863717174,0.9680702421873929,REFER,URGENT,"Predicted grade 4 — sight-threatening, refer promptly"
+IDRiD_125_train,IDRiD,2,2,0.4725471432851619,0.9759150809274386,REFER,ROUTINE,Predicted grade 2 — refer for ophthalmologist review
+20051020_57622_0100_PP,Messidor,2,2,0.8671977818995266,0.9238314841581615,REFER,ROUTINE,Predicted grade 2 — refer for ophthalmologist review
+0fb560f9adb2,APTOS,2,1,0.4532476243034358,0.4765320353928803,REFER,PRECAUTIONARY,"Predicted grade 1, but 47.7% probability mass on grade>=2 — flagged despite low-severity top prediction"
+IM001688,Messidor,0,0,0.9177982458320036,0.066752713369954,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+IM001308,Messidor,0,0,0.8917814554683885,0.0549078053230784,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+IDRiD_065_train,IDRiD,3,2,0.503650774663952,0.8365976239051496,REFER,ROUTINE,Predicted grade 2 — refer for ophthalmologist review
+IM003811,Messidor,2,0,0.6439940282622925,0.2551855067139772,REFER,PRECAUTIONARY,"Predicted grade 0, but 25.5% probability mass on grade>=2 — flagged despite low-severity top prediction"
+20060530_55724_0100_PP,Messidor,3,3,0.7065922713864112,0.9072546970398636,REFER,URGENT,"Predicted grade 3 — sight-threatening, refer promptly"
+IM002895,Messidor,0,0,0.7240986788829982,0.0342359355464879,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+IDRiD_346_train,IDRiD,0,0,0.8674576773134861,0.1020619411652684,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+58a9e0d7f7af,APTOS,0,0,0.9485360968452756,0.0254969015060083,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+a2811f512c1c,APTOS,0,0,0.9116197750864968,0.053432705597869404,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+d30d079e6f9a,APTOS,0,0,0.7606927048328159,0.22272684144905652,REFER,PRECAUTIONARY,"Predicted grade 0, but 22.3% probability mass on grade>=2 — flagged despite low-severity top prediction"
+IM001252,Messidor,0,0,0.6605979484032213,0.22689988018223642,REFER,PRECAUTIONARY,"Predicted grade 0, but 22.7% probability mass on grade>=2 — flagged despite low-severity top prediction"
+IM001629,Messidor,0,0,0.8953905084101876,0.0565310620181872,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+52ddde91a349,APTOS,0,0,0.9853694457131564,0.007151067029210678,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+1ade1e949383,APTOS,2,2,0.8490643321379301,0.878698460225548,REFER,ROUTINE,Predicted grade 2 — refer for ophthalmologist review
+1db0393cdbc1,APTOS,0,0,0.9406571998284088,0.034110492198285505,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+81914ceb4e74,APTOS,0,0,0.9792690186241296,0.012831361702302198,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+dee1031a76ae,APTOS,0,0,0.6931586858493146,0.04510424646149681,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+f994a3b07935,APTOS,0,0,0.9201046658933136,0.053136171773515206,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+0ada12c0e78f,APTOS,4,2,0.6306596836522251,0.8172871777916109,REFER,ROUTINE,Predicted grade 2 — refer for ophthalmologist review
+ae49cc60f251,APTOS,0,0,0.9702195160493884,0.011359127634036001,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+73a07e2ea23e,APTOS,0,0,0.954481500628903,0.0268198664440642,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+20060529_57351_0100_PP,Messidor,0,1,0.4144032271044892,0.2367775179114633,REFER,PRECAUTIONARY,"Predicted grade 1, but 23.7% probability mass on grade>=2 — flagged despite low-severity top prediction"
+IM001139,Messidor,0,0,0.8956974955143285,0.0605183652384432,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+IDRiD_024_train,IDRiD,4,2,0.772671354478794,0.9777447815327582,REFER,ROUTINE,Predicted grade 2 — refer for ophthalmologist review
+20051130_54595_0400_PP,Messidor,0,0,0.5544940768449325,0.24646337798158757,REFER,PRECAUTIONARY,"Predicted grade 0, but 24.6% probability mass on grade>=2 — flagged despite low-severity top prediction"
+4d167ca69ea8,APTOS,0,0,0.8965663108426891,0.0327206948424697,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+8c29a76fa08c,APTOS,0,0,0.7897761781977601,0.19789829464009032,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+e1dc02a3dc2a,APTOS,0,0,0.9561422371436314,0.0197273010626813,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+9688c6ef5dc5,APTOS,0,0,0.989574612828434,0.007815640168499,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+20051116_54642_0400_PP,Messidor,1,0,0.513492616292667,0.1425450424970992,REFER,PRECAUTIONARY,Predicted grade 0 but low overall confidence (0.51)
+20060410_41880_0200_PP,Messidor,0,2,0.5040186196303806,0.5255106913577926,REFER,ROUTINE,Predicted grade 2 — refer for ophthalmologist review
+20060411_60028_0200_PP,Messidor,1,0,0.6413544725333542,0.0474076208346727,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+20060412_59735_0200_PP,Messidor,2,2,0.640240900697409,0.8172538110113583,REFER,ROUTINE,Predicted grade 2 — refer for ophthalmologist review
+dccdf750c962,APTOS,0,0,0.9642678441214488,0.01796976129145625,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+IM000212,Messidor,0,0,0.9089095452931436,0.0294768402390203,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+20060410_47331_0200_PP,Messidor,1,0,0.6666237301918995,0.13274089886449097,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+20060412_58054_0200_PP,Messidor,0,0,0.8648049379328624,0.0927668369841881,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+IM004169,Messidor,0,0,0.9230400979045076,0.0461178100555691,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+20060412_61222_0200_PP,Messidor,2,2,0.4801350400365583,0.48579607896912563,REFER,ROUTINE,Predicted grade 2 — refer for ophthalmologist review
+20051201_38164_0400_PP,Messidor,0,0,0.6752728439931086,0.1197914424360768,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+20060523_48425_0100_PP,Messidor,1,0,0.916211867045162,0.0210632839765254,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+20051205_59858_0400_PP,Messidor,0,0,0.8316426413350722,0.08880334516551659,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+20051214_41490_0100_PP,Messidor,2,3,0.4843664168692834,0.6669058183170119,REFER,URGENT,"Predicted grade 3 — sight-threatening, refer promptly"
+942f544c4e15,APTOS,0,0,0.9429641009556194,0.0423490915784473,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+b351ae99413a,APTOS,0,0,0.9731661944521226,0.006075073199693909,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+956765d5f46d,APTOS,0,0,0.9397875306148618,0.0246831000756801,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+20060412_59175_0200_PP,Messidor,0,0,0.51381842701515,0.0960219214361881,REFER,PRECAUTIONARY,Predicted grade 0 but low overall confidence (0.51)
+f9d52509c571,APTOS,0,0,0.9386780265835546,0.032400041687430596,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+77543f66a84a,APTOS,2,2,0.8692554432564247,0.9656144109283539,REFER,ROUTINE,Predicted grade 2 — refer for ophthalmologist review
+20051214_42197_0100_PP,Messidor,0,0,0.4055416639662647,0.21602472302752793,REFER,PRECAUTIONARY,"Predicted grade 0, but 21.6% probability mass on grade>=2 — flagged despite low-severity top prediction"
+IM000725,Messidor,1,0,0.9391262550456568,0.046177358228466095,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+4c17e85686f0,APTOS,0,0,0.9164585350885136,0.05938224173623619,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+IM003879,Messidor,0,0,0.7942976451572823,0.1327108427804194,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+11b5c77fbf79,APTOS,2,0,0.5949284129387649,0.3867655068097097,REFER,PRECAUTIONARY,"Predicted grade 0, but 38.7% probability mass on grade>=2 — flagged despite low-severity top prediction"
+20060529_57174_0100_PP,Messidor,1,2,0.5113569563683606,0.5448449409509196,REFER,ROUTINE,Predicted grade 2 — refer for ophthalmologist review
+20060523_50342_0100_PP,Messidor,0,0,0.5269007024579123,0.06934007341911261,REFER,PRECAUTIONARY,Predicted grade 0 but low overall confidence (0.53)
+IM001514,Messidor,0,0,0.920037224766902,0.0470202149303951,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+IM002703,Messidor,0,0,0.8880596389425361,0.0777491542436112,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+20060411_58051_0200_PP,Messidor,1,0,0.7526193691173197,0.0529408420113416,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+ea68b58a6e8f,APTOS,0,0,0.976294338132646,0.010937317019167801,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+IDRiD_175_train,IDRiD,0,0,0.8029020662152908,0.0525391199973235,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+f0e1201b5c1f,APTOS,0,0,0.9546053452198444,0.0284474829094137,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+20060530_51254_0100_PP,Messidor,0,0,0.6131079204910717,0.2407437432433971,REFER,PRECAUTIONARY,"Predicted grade 0, but 24.1% probability mass on grade>=2 — flagged despite low-severity top prediction"
+20060412_59037_0200_PP,Messidor,1,0,0.5341747780371499,0.38785033138114877,REFER,PRECAUTIONARY,"Predicted grade 0, but 38.8% probability mass on grade>=2 — flagged despite low-severity top prediction"
+IM004554,Messidor,0,0,0.9196838572074708,0.0496102961002734,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+IDRiD_140_train,IDRiD,0,0,0.5912924157437379,0.3423641797889894,REFER,PRECAUTIONARY,"Predicted grade 0, but 34.2% probability mass on grade>=2 — flagged despite low-severity top prediction"
+20051116_55656_0400_PP,Messidor,2,0,0.9446157633957794,0.0321731103898904,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+IM001581,Messidor,0,0,0.8441368572203118,0.018938004712525,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+IM000984,Messidor,1,0,0.8777226349946186,0.0543971332023751,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+8f10e41a2f02,APTOS,0,0,0.9173994574929616,0.031200191349481703,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+20060412_52587_0200_PP,Messidor,1,1,0.4717101568881576,0.0627434694264624,REFER,PRECAUTIONARY,Predicted grade 1 but low overall confidence (0.47)
+653534ded339,APTOS,2,2,0.6335732068734663,0.6797965056666936,REFER,ROUTINE,Predicted grade 2 — refer for ophthalmologist review
+03a7f4a5786f,APTOS,4,2,0.413685541406069,0.6787429903233907,REFER,ROUTINE,Predicted grade 2 — refer for ophthalmologist review
+IDRiD_034_test,IDRiD,3,2,0.5969915923653644,0.9508050458755877,REFER,ROUTINE,Predicted grade 2 — refer for ophthalmologist review
+20060410_39976_0200_PP,Messidor,1,1,0.5910465032994369,0.1872512918962047,REFER,PRECAUTIONARY,Predicted grade 1 but low overall confidence (0.59)
+20060411_51985_0200_PP,Messidor,2,1,0.3995832787972184,0.35449848914893134,REFER,PRECAUTIONARY,"Predicted grade 1, but 35.4% probability mass on grade>=2 — flagged despite low-severity top prediction"
+20051130_59850_0400_PP,Messidor,0,0,0.7980780281055946,0.1395424885629969,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+a4ee03ecff60,APTOS,0,0,0.9725278366992676,0.0173748078845422,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+IDRiD_007_train,IDRiD,4,4,0.7669702708695831,0.8615720999888367,REFER,URGENT,"Predicted grade 4 — sight-threatening, refer promptly"
+389552047476,APTOS,0,0,0.9360919939839614,0.037043253704319004,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+20051130_55012_0400_PP,Messidor,0,0,0.8271478465370453,0.0497838616161836,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+IM002695,Messidor,0,0,0.8476952559941474,0.041755100528708,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+IM002034,Messidor,0,0,0.5429793086240593,0.4315700343658992,REFER,PRECAUTIONARY,"Predicted grade 0, but 43.2% probability mass on grade>=2 — flagged despite low-severity top prediction"
+20051021_59243_0100_PP,Messidor,3,3,0.4603309082388117,0.916092234002284,REFER,URGENT,"Predicted grade 3 — sight-threatening, refer promptly"
+IM000916,Messidor,0,0,0.9466949985757542,0.031434772299456896,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+20051205_57879_0400_PP,Messidor,0,0,0.7288015652636048,0.1239987663692102,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+20051021_57975_0100_PP,Messidor,0,0,0.9476921001348896,0.0302863544538858,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+IM001539,Messidor,0,0,0.9503166662188428,0.0219949073528782,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+20051116_59168_0400_PP,Messidor,2,2,0.550493518445865,0.7720155089499754,REFER,ROUTINE,Predicted grade 2 — refer for ophthalmologist review
+IM001582,Messidor,0,0,0.613895696209699,0.0577573210868255,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+IM002356,Messidor,0,0,0.8617004097072547,0.025851173943319372,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+IDRiD_188_train,IDRiD,2,0,0.7708318915249667,0.1420926134414482,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+54cab3596214,APTOS,2,2,0.3734532874370566,0.7711543049713915,REFER,ROUTINE,Predicted grade 2 — refer for ophthalmologist review
+d38cf0f4a9af,APTOS,0,0,0.9663662836720532,0.0202783246127132,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+IM002894,Messidor,0,0,0.9038641446549016,0.0577537983095652,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+IDRiD_198_train,IDRiD,1,0,0.6343323856671883,0.0601680381831023,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+20060407_46394_0200_PP,Messidor,2,1,0.449647758105959,0.30198984557804337,REFER,PRECAUTIONARY,"Predicted grade 1, but 30.2% probability mass on grade>=2 — flagged despite low-severity top prediction"
+20051214_50895_0100_PP,Messidor,2,2,0.4666410917836929,0.4777356982970365,REFER,ROUTINE,Predicted grade 2 — refer for ophthalmologist review
+20060523_48890_0100_PP,Messidor,0,0,0.8380892087424665,0.027856212190068546,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+f0a2dc580009,APTOS,0,0,0.73766157565234,0.02139512552466,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+IDRiD_207_train,IDRiD,3,2,0.597656295012988,0.6699762508229278,REFER,ROUTINE,Predicted grade 2 — refer for ophthalmologist review
+IDRiD_052_train,IDRiD,2,2,0.8039903900272096,0.9416983009386574,REFER,ROUTINE,Predicted grade 2 — refer for ophthalmologist review
+IM000553,Messidor,0,0,0.956257334057772,0.0174800018862586,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+0e75d51152fc,APTOS,2,2,0.5611765498364767,0.6136060886624832,REFER,ROUTINE,Predicted grade 2 — refer for ophthalmologist review
+20051214_56565_0100_PP,Messidor,2,0,0.5539022018457438,0.13633364859808808,REFER,PRECAUTIONARY,Predicted grade 0 but low overall confidence (0.55)
+20060410_41077_0200_PP,Messidor,1,1,0.3674069282130475,0.3361054003337596,REFER,PRECAUTIONARY,"Predicted grade 1, but 33.6% probability mass on grade>=2 — flagged despite low-severity top prediction"
+20060411_60283_0200_PP,Messidor,2,1,0.4734869225536337,0.3707374832648919,REFER,PRECAUTIONARY,"Predicted grade 1, but 37.1% probability mass on grade>=2 — flagged despite low-severity top prediction"
+IM003893,Messidor,0,0,0.8462884120730155,0.1042301917341403,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+IM001948,Messidor,0,0,0.8584806886382892,0.1057305869579292,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+5b47043942f4,APTOS,0,0,0.5267928577457722,0.41418843239914566,REFER,PRECAUTIONARY,"Predicted grade 0, but 41.4% probability mass on grade>=2 — flagged despite low-severity top prediction"
+6b66b0e86f7e,APTOS,0,0,0.9864401717516592,0.005115061327773514,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+20060410_40274_0200_PP,Messidor,2,0,0.6257988474482127,0.030233689840383403,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+20051116_43954_0400_PP,Messidor,1,0,0.7120253289015813,0.1275844546176205,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+07929d32b5b3,APTOS,1,2,0.7015973774956938,0.8108753769549638,REFER,ROUTINE,Predicted grade 2 — refer for ophthalmologist review
+20051205_58037_0400_PP,Messidor,0,0,0.9360349925260416,0.0370829685488877,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+165c548185f8,APTOS,0,0,0.9721772139221946,0.016920731260336202,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+IDRiD_339_train,IDRiD,3,2,0.6395359252112138,0.9658903146602507,REFER,ROUTINE,Predicted grade 2 — refer for ophthalmologist review
+20051116_54825_0400_PP,Messidor,2,0,0.4732703217413944,0.4262480040198655,REFER,PRECAUTIONARY,"Predicted grade 0, but 42.6% probability mass on grade>=2 — flagged despite low-severity top prediction"
+14e3f84445f7,APTOS,3,2,0.5369917664431045,0.9757371988566574,REFER,ROUTINE,Predicted grade 2 — refer for ophthalmologist review
+e0d229db881a,APTOS,0,0,0.9583158414408114,0.0267759192937551,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+IDRiD_185_train,IDRiD,2,2,0.8572595209259095,0.9221345660637467,REFER,ROUTINE,Predicted grade 2 — refer for ophthalmologist review
+1a369baf9ee6,APTOS,2,2,0.4630964388007802,0.8865384212236983,REFER,ROUTINE,Predicted grade 2 — refer for ophthalmologist review
+18621b9ca978,APTOS,0,0,0.8737417398271641,0.0578344473576095,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+20051021_36380_0100_PP,Messidor,0,0,0.4781083520880024,0.4208778627580773,REFER,PRECAUTIONARY,"Predicted grade 0, but 42.1% probability mass on grade>=2 — flagged despite low-severity top prediction"
+IDRiD_003_train,IDRiD,2,2,0.7554530076578132,0.7950116400149946,REFER,ROUTINE,Predicted grade 2 — refer for ophthalmologist review
+15c24478ac72,APTOS,0,0,0.8305161622202819,0.0290700052113994,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+20051205_60119_0400_PP,Messidor,0,0,0.8287603552889403,0.07161813404076339,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+IM000768,Messidor,1,0,0.7017716054837032,0.0743803388771503,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+IM001245,Messidor,2,0,0.9364743746513028,0.0375083844456421,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+891329021e12,APTOS,0,0,0.9630778172041884,0.023451271637109698,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+81371b0c01ad,APTOS,0,0,0.9218842055097416,0.0472434169573541,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+242fc19be06f,APTOS,0,0,0.9753085920989236,0.009236067257881553,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+9f935fb38440,APTOS,0,0,0.9342355782833608,0.04631604050761651,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+IM001985,Messidor,0,0,0.7107588179269264,0.0265752893774978,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+a85cda5f725d,APTOS,0,0,0.9826867789690276,0.008186081846919022,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+IDRiD_312_train,IDRiD,0,0,0.7080826420743866,0.2572012076194646,REFER,PRECAUTIONARY,"Predicted grade 0, but 25.7% probability mass on grade>=2 — flagged despite low-severity top prediction"
+bffca6eeb2bf,APTOS,0,0,0.960536378316164,0.007838900579261426,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+IM001103,Messidor,0,0,0.8307082847359212,0.023509707213192,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+20051201_37534_0400_PP,Messidor,0,0,0.5863178563778487,0.18036152278597048,REFER,PRECAUTIONARY,Predicted grade 0 but low overall confidence (0.59)
+f09fd9433dff,APTOS,0,0,0.9846363417797744,0.00871490512869179,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+bb08949dd70a,APTOS,0,0,0.9690580562241244,0.019145047140117,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+IM001227,Messidor,0,0,0.9411774125078372,0.023644404665092204,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+20060407_39780_0200_PP,Messidor,0,0,0.5522138365685516,0.14234278438808282,REFER,PRECAUTIONARY,Predicted grade 0 but low overall confidence (0.55)
+IM000888,Messidor,0,0,0.9491207353648246,0.026985156561123,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+a9b3177f01c0,APTOS,0,0,0.9175519044592616,0.040372964989024596,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+365f8c01d994,APTOS,1,0,0.5231923679569298,0.4374631945833907,REFER,PRECAUTIONARY,"Predicted grade 0, but 43.7% probability mass on grade>=2 — flagged despite low-severity top prediction"
+IDRiD_031_train,IDRiD,4,4,0.4379777179728953,0.8712969128125877,REFER,URGENT,"Predicted grade 4 — sight-threatening, refer promptly"
+0f495d87656a,APTOS,1,2,0.7114238405968022,0.8076719750867907,REFER,ROUTINE,Predicted grade 2 — refer for ophthalmologist review
+IDRiD_059_train,IDRiD,2,2,0.6346837373912693,0.8153914661960086,REFER,ROUTINE,Predicted grade 2 — refer for ophthalmologist review
+IM001124,Messidor,0,0,0.9267345497839208,0.039758567626042705,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+bc92a61a1f9c,APTOS,0,0,0.9295074522223756,0.01862194145259859,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+20060410_44364_0200_PP,Messidor,0,0,0.8073096478167197,0.053189265548889,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+20051020_44261_0100_PP,Messidor,0,0,0.9584092138851732,0.017937027623167397,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+e067b06fd655,APTOS,0,0,0.9453404181329804,0.0319282837778918,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+eb050765b323,APTOS,0,0,0.9823898005840136,0.008557187940303624,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+c56293f53191,APTOS,0,0,0.9796934957530332,0.007401611207739218,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+8b568d47a1fd,APTOS,0,0,0.9824099759114504,0.0086348577202779,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+c3789c1dab96,APTOS,0,0,0.9375016908141196,0.0494725355936709,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+IM001336,Messidor,0,0,0.8331987506297915,0.0469704601120087,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+IDRiD_013_train,IDRiD,3,0,0.4214133446080753,0.5569108602415859,REFER,PRECAUTIONARY,"Predicted grade 0, but 55.7% probability mass on grade>=2 — flagged despite low-severity top prediction"
+20051216_46847_0200_PP,Messidor,3,2,0.3403025386465848,0.597497919643595,REFER,ROUTINE,Predicted grade 2 — refer for ophthalmologist review
+135575dc57c9,APTOS,2,4,0.5943341124845045,0.94153070822722,REFER,URGENT,"Predicted grade 4 — sight-threatening, refer promptly"
+20051214_42323_0100_PP,Messidor,0,0,0.7387506500455787,0.1177141235904193,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+e60e4edb3ca9,APTOS,0,0,0.9328510731189688,0.0450207515479043,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+20060412_61299_0200_PP,Messidor,1,0,0.4735370774221623,0.2122780812452724,REFER,PRECAUTIONARY,"Predicted grade 0, but 21.2% probability mass on grade>=2 — flagged despite low-severity top prediction"
+IM001231,Messidor,2,2,0.5713863456130857,0.596925024460312,REFER,ROUTINE,Predicted grade 2 — refer for ophthalmologist review
+b3f31c371e59,APTOS,0,0,0.9694095883496332,0.022143378691093,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+a963ac561580,APTOS,0,0,0.9798865410821906,0.00796678248367895,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+537e5c578f40,APTOS,0,0,0.8471636106653486,0.1365596336747072,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+9ac41b9a809e,APTOS,0,0,0.9742831305016918,0.0138292599029046,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+IDRiD_028_train,IDRiD,4,3,0.7829428313142173,0.9854377451845155,REFER,URGENT,"Predicted grade 3 — sight-threatening, refer promptly"
+969f92a390db,APTOS,0,0,0.9581359561308588,0.0234583639477411,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+ad20080452de,APTOS,0,0,0.9697948932628734,0.014426895642606834,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+IM000299,Messidor,0,0,0.9768836031607062,0.00896880525507087,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+20051020_44714_0100_PP,Messidor,0,1,0.3823243733314284,0.3171682488155777,REFER,PRECAUTIONARY,"Predicted grade 1, but 31.7% probability mass on grade>=2 — flagged despite low-severity top prediction"
+IDRiD_220_train,IDRiD,0,0,0.8821385139919681,0.054939993270073297,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+IM004036,Messidor,0,0,0.9688493372158142,0.0159936725050551,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+a56729de89e9,APTOS,2,2,0.6523405238560016,0.9019096964997737,REFER,ROUTINE,Predicted grade 2 — refer for ophthalmologist review
+fce73678f650,APTOS,0,0,0.714192428321051,0.1548041290270315,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+IDRiD_060_train,IDRiD,2,2,0.6113542616256402,0.7705053408688771,REFER,ROUTINE,Predicted grade 2 — refer for ophthalmologist review
+20060411_58071_0200_PP,Messidor,0,1,0.582762820637101,0.0636270028299006,REFER,PRECAUTIONARY,Predicted grade 1 but low overall confidence (0.58)
+0fe31196e0e8,APTOS,0,0,0.9758305948540138,0.013995412320409937,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+20051116_54587_0400_PP,Messidor,1,2,0.6388593197433278,0.6831169745748406,REFER,ROUTINE,Predicted grade 2 — refer for ophthalmologist review
+20051130_55004_0400_PP,Messidor,0,0,0.8924225820278195,0.025594204519674202,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+IM001088,Messidor,2,0,0.7293033110962335,0.024493159305668456,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+IDRiD_336_train,IDRiD,0,0,0.9470518731593648,0.0335895550943001,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+d667af5742f6,APTOS,0,0,0.903647667816715,0.051096503075746105,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+eabc7c716255,APTOS,0,0,0.9119803070550156,0.056366152551280795,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+IM000012,Messidor,2,0,0.8391429692758365,0.09637194988352848,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+IDRiD_048_train,IDRiD,2,4,0.4340019078698055,0.9805678942982151,REFER,URGENT,"Predicted grade 4 — sight-threatening, refer promptly"
+84b472c49cfa,APTOS,0,0,0.9599514937707336,0.0198668470090979,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+IM000834,Messidor,1,0,0.6084612716491933,0.25682931853671087,REFER,PRECAUTIONARY,"Predicted grade 0, but 25.7% probability mass on grade>=2 — flagged despite low-severity top prediction"
+IDRiD_033_train,IDRiD,4,4,0.8905206322218633,0.9808516734371032,REFER,URGENT,"Predicted grade 4 — sight-threatening, refer promptly"
+e2ec22b3d07e,APTOS,0,0,0.8520417990789578,0.1152763081806563,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+cf8f1bc7a215,APTOS,0,0,0.9647407800115632,0.0251309279104971,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+IDRiD_194_train,IDRiD,1,0,0.841416274027921,0.09143418181874001,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+d16e59a2b33a,APTOS,0,0,0.9853010899199334,0.005740917917122878,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+20051216_45899_0200_PP,Messidor,1,1,0.5170133689946663,0.0609191265353424,REFER,PRECAUTIONARY,Predicted grade 1 but low overall confidence (0.52)
+IM002441,Messidor,0,3,0.3753763110252064,0.8443538961997936,REFER,URGENT,"Predicted grade 3 — sight-threatening, refer promptly"
+d7ab5c040294,APTOS,0,0,0.9456290704461368,0.0359145062888742,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+7ae69d22075a,APTOS,1,0,0.9715548627368736,0.013552809081115811,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+18cde9649e90,APTOS,0,0,0.947503624520396,0.031085413289769104,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+20060523_45467_0100_PP,Messidor,0,2,0.5582269683812537,0.5767847367855482,REFER,ROUTINE,Predicted grade 2 — refer for ophthalmologist review
+IDRiD_334_train,IDRiD,3,2,0.5640386847564722,0.8227463259948858,REFER,ROUTINE,Predicted grade 2 — refer for ophthalmologist review
+IDRiD_152_train,IDRiD,0,0,0.6409981449094461,0.16209155141039258,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+0415fc68b176,APTOS,2,2,0.3860926487439852,0.5800741845085201,REFER,ROUTINE,Predicted grade 2 — refer for ophthalmologist review
+20051202_55735_0400_PP,Messidor,2,0,0.6413420690442361,0.1836661769305618,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+20051020_44349_0100_PP,Messidor,2,0,0.3742400633170199,0.5342433244575274,REFER,PRECAUTIONARY,"Predicted grade 0, but 53.4% probability mass on grade>=2 — flagged despite low-severity top prediction"
+a2d349f567a6,APTOS,2,2,0.6235105499941711,0.6374938352937692,REFER,ROUTINE,Predicted grade 2 — refer for ophthalmologist review
+20060523_50539_0100_PP,Messidor,3,2,0.6546992656372683,0.8605050680669835,REFER,ROUTINE,Predicted grade 2 — refer for ophthalmologist review
+IM002456,Messidor,0,0,0.4381152673588164,0.3758523690497653,REFER,PRECAUTIONARY,"Predicted grade 0, but 37.6% probability mass on grade>=2 — flagged despite low-severity top prediction"
+20051214_51921_0100_PP,Messidor,2,2,0.8208536561161515,0.9078516490759283,REFER,ROUTINE,Predicted grade 2 — refer for ophthalmologist review
+IDRiD_080_test,IDRiD,0,0,0.911751917931126,0.070181983755779,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+d97911a32918,APTOS,0,0,0.9772821626316446,0.0136750034638506,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+922586d86cd8,APTOS,0,0,0.9285790081399544,0.013283131178830902,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+5d74f98d62be,APTOS,4,2,0.3883695187266212,0.6789948459464311,REFER,ROUTINE,Predicted grade 2 — refer for ophthalmologist review
+IM002853,Messidor,0,0,0.933525842101278,0.022000966965349,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+20060411_61494_0200_PP,Messidor,2,0,0.6405652157384985,0.1231459222383282,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+IDRiD_260_train,IDRiD,2,0,0.8049758721007302,0.1639778576167936,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+IDRiD_275_train,IDRiD,0,0,0.7919911601759955,0.17799024735502478,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+IM002658,Messidor,0,0,0.9567786524670244,0.01821897908424924,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+20051116_44804_0400_PP,Messidor,1,0,0.8248120893294895,0.0764451286584789,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+20060407_44529_0200_PP,Messidor,0,1,0.5245702379696866,0.05174688803522891,REFER,PRECAUTIONARY,Predicted grade 1 but low overall confidence (0.52)
+IM000198,Messidor,0,0,0.8997810190153197,0.05362609627399367,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+20060523_48136_0100_PP,Messidor,0,2,0.5088064146980532,0.6138630924192625,REFER,ROUTINE,Predicted grade 2 — refer for ophthalmologist review
+IDRiD_214_train,IDRiD,0,0,0.609893889970255,0.059754831597608096,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+115e42dd6a81,APTOS,2,2,0.5782966193458954,0.9016265090867317,REFER,ROUTINE,Predicted grade 2 — refer for ophthalmologist review
+20060411_58238_0200_PP,Messidor,2,2,0.5379174587543735,0.6454398279972117,REFER,ROUTINE,Predicted grade 2 — refer for ophthalmologist review
+20051130_58716_0400_PP,Messidor,0,0,0.8473482716648578,0.0974386485783184,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+IDRiD_309_train,IDRiD,3,3,0.4027709292811841,0.9708106933539289,REFER,URGENT,"Predicted grade 3 — sight-threatening, refer promptly"
+20060411_61060_0200_PP,Messidor,1,0,0.6937703574719809,0.1202856198728194,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+IM001181,Messidor,0,0,0.9543903924491234,0.0204723957068164,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+20051212_36548_0400_PP,Messidor,1,0,0.7252767130653113,0.2141391265463304,REFER,PRECAUTIONARY,"Predicted grade 0, but 21.4% probability mass on grade>=2 — flagged despite low-severity top prediction"
+4dd14c380696,APTOS,0,0,0.952107109826714,0.0327443366447454,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+20051201_37557_0400_PP,Messidor,0,1,0.3586789038310474,0.3161620448527281,REFER,PRECAUTIONARY,"Predicted grade 1, but 31.6% probability mass on grade>=2 — flagged despite low-severity top prediction"
+bdf47b9f10c4,APTOS,0,0,0.9866660773691368,0.003666114825660987,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+7e77b61e1639,APTOS,0,0,0.9747064899441882,0.012405590154168625,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+IM001752,Messidor,4,3,0.5461278697136733,0.9312400135989306,REFER,URGENT,"Predicted grade 3 — sight-threatening, refer promptly"
+3cd9713c0ecb,APTOS,0,0,0.977127349851454,0.0127984459303579,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+IM003856,Messidor,0,0,0.9026073956001188,0.024671740338624598,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+12e3f5f2cb17,APTOS,1,2,0.8293150101532829,0.8486447521632337,REFER,ROUTINE,Predicted grade 2 — refer for ophthalmologist review
+06be1092a062,APTOS,0,0,0.932383306094942,0.0566543426403775,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+c98f623d08d1,APTOS,0,0,0.949203224311045,0.0240771060576649,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+IM000500,Messidor,1,0,0.9694016459926106,0.01427949316585459,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+28503940d10b,APTOS,0,0,0.9523657694767084,0.0352296229425386,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+1c0cf251b426,APTOS,1,1,0.6313070204174602,0.29859927511423345,REFER,PRECAUTIONARY,"Predicted grade 1, but 29.9% probability mass on grade>=2 — flagged despite low-severity top prediction"
+20060407_44866_0200_PP,Messidor,0,0,0.5730273943366189,0.0888700835206844,REFER,PRECAUTIONARY,Predicted grade 0 but low overall confidence (0.57)
+IDRiD_397_train,IDRiD,2,0,0.5635252297984141,0.3995931772286361,REFER,PRECAUTIONARY,"Predicted grade 0, but 40.0% probability mass on grade>=2 — flagged despite low-severity top prediction"
+359bab5d784b,APTOS,0,0,0.9786062051261852,0.008128609265321354,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+20051116_59150_0400_PP,Messidor,2,1,0.4883710605953586,0.2562295075529325,REFER,PRECAUTIONARY,"Predicted grade 1, but 25.6% probability mass on grade>=2 — flagged despite low-severity top prediction"
+IDRiD_208_train,IDRiD,2,0,0.873278750459576,0.0311108994537483,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+20051214_57230_0100_PP,Messidor,2,2,0.615419480449116,0.8932598468281189,REFER,ROUTINE,Predicted grade 2 — refer for ophthalmologist review
+IM004811,Messidor,1,0,0.6223166684742316,0.3557458996078391,REFER,PRECAUTIONARY,"Predicted grade 0, but 35.6% probability mass on grade>=2 — flagged despite low-severity top prediction"
+20060411_61478_0200_PP,Messidor,3,2,0.6866238808680389,0.8603018791435996,REFER,ROUTINE,Predicted grade 2 — refer for ophthalmologist review
+93a1b984de84,APTOS,0,0,0.9793534400464864,0.0128245965336103,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+13d71389563f,APTOS,2,2,0.5739148635828834,0.9127388774020923,REFER,ROUTINE,Predicted grade 2 — refer for ophthalmologist review
+18ce0cdc473d,APTOS,0,0,0.6867522359958667,0.0487099402159404,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+IDRiD_377_train,IDRiD,3,2,0.3675589198777649,0.9521725497581044,REFER,ROUTINE,Predicted grade 2 — refer for ophthalmologist review
+360832d84ce0,APTOS,0,0,0.9374433687615968,0.039503341683496,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+IDRiD_081_test,IDRiD,2,2,0.5048459124894711,0.542055917573989,REFER,ROUTINE,Predicted grade 2 — refer for ophthalmologist review
+IDRiD_095_test,IDRiD,0,0,0.5726405340270248,0.229135744892826,REFER,PRECAUTIONARY,"Predicted grade 0, but 22.9% probability mass on grade>=2 — flagged despite low-severity top prediction"
+IM003431,Messidor,2,0,0.7985487810291727,0.0940304872563028,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+20060523_48161_0100_PP,Messidor,0,0,0.8209258776662938,0.054272433185768194,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+2408799a09b2,APTOS,0,0,0.9535448143256064,0.0191154038511587,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+b21abe5d9722,APTOS,0,0,0.9347674847121752,0.0372027881211121,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+20051202_56028_0400_PP,Messidor,2,0,0.7485724733033907,0.049076992061324196,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+IM002938,Messidor,2,0,0.5988368239523252,0.36077707294083194,REFER,PRECAUTIONARY,"Predicted grade 0, but 36.1% probability mass on grade>=2 — flagged despite low-severity top prediction"
+IM000122,Messidor,0,0,0.8640898316043807,0.0828951011646607,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+IDRiD_078_test,IDRiD,0,0,0.6045221190740198,0.3705720154633704,REFER,PRECAUTIONARY,"Predicted grade 0, but 37.1% probability mass on grade>=2 — flagged despite low-severity top prediction"
+IM000161,Messidor,0,0,0.7480542758442272,0.2291435083672854,REFER,PRECAUTIONARY,"Predicted grade 0, but 22.9% probability mass on grade>=2 — flagged despite low-severity top prediction"
+IM003595,Messidor,0,0,0.9465176169722724,0.024594125329173003,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+IM003214,Messidor,0,0,0.9507476680451146,0.025147628188165003,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+20060411_58891_0200_PP,Messidor,0,0,0.6258507781349374,0.18695114034014731,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+20051216_47514_0200_PP,Messidor,0,0,0.7449562561031616,0.07850952315966898,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+20051201_37390_0400_PP,Messidor,0,0,0.5513439745606084,0.033459221213248805,REFER,PRECAUTIONARY,Predicted grade 0 but low overall confidence (0.55)
+IDRiD_081_train,IDRiD,4,4,0.5020097690329274,0.6743345775296437,REFER,URGENT,"Predicted grade 4 — sight-threatening, refer promptly"
+20051130_54802_0400_PP,Messidor,0,0,0.8492397736084565,0.0348038002383829,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+IDRiD_202_train,IDRiD,0,0,0.9065500629834592,0.033007813526327895,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+a654b25124c3,APTOS,0,0,0.9600087730313768,0.0200638793137308,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+20051208_42546_0400_PP,Messidor,2,0,0.4609603943852736,0.07996516426876711,REFER,PRECAUTIONARY,Predicted grade 0 but low overall confidence (0.46)
+IDRiD_023_train,IDRiD,3,2,0.807300556209041,0.9116325993239172,REFER,ROUTINE,Predicted grade 2 — refer for ophthalmologist review
+20051205_35408_0400_PP,Messidor,2,0,0.4413491880586955,0.43691218543812577,REFER,PRECAUTIONARY,"Predicted grade 0, but 43.7% probability mass on grade>=2 — flagged despite low-severity top prediction"
+20051216_45351_0200_PP,Messidor,2,2,0.3310656592373791,0.6431793773973601,REFER,ROUTINE,Predicted grade 2 — refer for ophthalmologist review
+6180920bc224,APTOS,0,0,0.9361145414950622,0.0422321086593838,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+5a93c0f783c4,APTOS,0,0,0.9593931079874478,0.0219697238477237,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+IDRiD_055_test,IDRiD,0,2,0.5357758346860297,0.610204738199567,REFER,ROUTINE,Predicted grade 2 — refer for ophthalmologist review
+IM003323,Messidor,0,0,0.9438384523256304,0.0276470092559473,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+IDRiD_064_train,IDRiD,2,2,0.5828276510033293,0.8832043271135752,REFER,ROUTINE,Predicted grade 2 — refer for ophthalmologist review
+150f92b45349,APTOS,0,0,0.948113468183984,0.0281685837359424,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+IDRiD_264_train,IDRiD,0,0,0.845764043803235,0.09709896907862159,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+1dbdc32c17db,APTOS,2,2,0.8301566356484442,0.8864740502180365,REFER,ROUTINE,Predicted grade 2 — refer for ophthalmologist review
+20051214_51342_0100_PP,Messidor,0,0,0.6417094551591788,0.07460050311374139,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+IDRiD_005_train,IDRiD,4,2,0.3629660744291533,0.827850289861512,REFER,ROUTINE,Predicted grade 2 — refer for ophthalmologist review
+20060410_44504_0200_PP,Messidor,0,0,0.8981803851457781,0.019558401426312197,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+2a7373eeb352,APTOS,0,0,0.9379296329884091,0.0347307599933966,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+20060522_45402_0100_PP,Messidor,1,0,0.5175779540291734,0.1674534917667851,REFER,PRECAUTIONARY,Predicted grade 0 but low overall confidence (0.52)
+IM001805,Messidor,1,0,0.934006024701655,0.03498979195946719,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+IDRiD_304_train,IDRiD,1,0,0.8632052397567919,0.0896969624261556,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+de18071c36e6,APTOS,0,0,0.9567875984356536,0.0328839310678184,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+462937ece243,APTOS,0,0,0.4838194501636278,0.4829136712691702,REFER,PRECAUTIONARY,"Predicted grade 0, but 48.3% probability mass on grade>=2 — flagged despite low-severity top prediction"
+03e25101e8e8,APTOS,1,2,0.6751218552921776,0.8294561138651284,REFER,ROUTINE,Predicted grade 2 — refer for ophthalmologist review
+20051202_56050_0400_PP,Messidor,2,2,0.4474924208099695,0.454952283153745,REFER,ROUTINE,Predicted grade 2 — refer for ophthalmologist review
+2cdcc910778d,APTOS,0,0,0.748585533043364,0.23927328729151198,REFER,PRECAUTIONARY,"Predicted grade 0, but 23.9% probability mass on grade>=2 — flagged despite low-severity top prediction"
+b8e9a8f4617d,APTOS,0,0,0.9727825328816622,0.008564954106320308,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+034cb07a550f,APTOS,4,2,0.7496592404620906,0.9671646812034616,REFER,ROUTINE,Predicted grade 2 — refer for ophthalmologist review
+04579e31e4be,APTOS,0,0,0.98690012348338,0.004131479230503157,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+IDRiD_389_train,IDRiD,4,4,0.7560114702028444,0.9783067241770456,REFER,URGENT,"Predicted grade 4 — sight-threatening, refer promptly"
+20060411_62319_0200_PP,Messidor,2,0,0.5923907970399968,0.2908378922102312,REFER,PRECAUTIONARY,"Predicted grade 0, but 29.1% probability mass on grade>=2 — flagged despite low-severity top prediction"
+aebe87a423c8,APTOS,0,0,0.6943631352576698,0.2896330471832398,REFER,PRECAUTIONARY,"Predicted grade 0, but 29.0% probability mass on grade>=2 — flagged despite low-severity top prediction"
+810d3779abd9,APTOS,3,3,0.4930553799489574,0.969884916430267,REFER,URGENT,"Predicted grade 3 — sight-threatening, refer promptly"
+IM000813,Messidor,0,0,0.8797509736906068,0.0354342255982529,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+20051020_56791_0100_PP,Messidor,0,0,0.7660544210135691,0.0984747331467051,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+1844a039b4ea,APTOS,2,2,0.8956938043540464,0.9448606922725171,REFER,ROUTINE,Predicted grade 2 — refer for ophthalmologist review
+b5b913358b32,APTOS,0,0,0.9801661319888209,0.009303918176554517,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+19b0e3c734f5,APTOS,0,0,0.9195023376696468,0.0592151172596621,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+20051020_64249_0100_PP,Messidor,0,0,0.8365472898629644,0.09777813942147731,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+20060412_57952_0200_PP,Messidor,0,2,0.4088085477964549,0.41471322707581815,REFER,ROUTINE,Predicted grade 2 — refer for ophthalmologist review
+5c85d22bd0de,APTOS,0,0,0.9155813042007525,0.0423947036366177,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+0db1d8dcf219,APTOS,0,0,0.9503177569427608,0.0400506232955348,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+20051130_60066_0400_PP,Messidor,0,0,0.7537742590076122,0.0590752437850974,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+20051020_63269_0100_PP,Messidor,0,0,0.9225020793229144,0.050533935653881,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+6a905a7202d2,APTOS,0,0,0.9564025111709726,0.0167456733844543,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+9c893e16c055,APTOS,0,0,0.9835812032394264,0.009077197842493499,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+15f440753916,APTOS,3,3,0.5991207888268459,0.9747006180320712,REFER,URGENT,"Predicted grade 3 — sight-threatening, refer promptly"
+ffd97f8cd5aa,APTOS,0,0,0.970196815174748,0.01829806838951737,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+20051130_54077_0400_PP,Messidor,0,0,0.9168259955348672,0.029129573240688,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+IM000668,Messidor,0,0,0.9092287104866767,0.0334296938994348,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+IDRiD_066_test,IDRiD,3,3,0.604375988079201,0.9524040045491021,REFER,URGENT,"Predicted grade 3 — sight-threatening, refer promptly"
+08c17a2d95b7,APTOS,2,4,0.4117473071421393,0.9083480258773473,REFER,URGENT,"Predicted grade 4 — sight-threatening, refer promptly"
+20051202_55582_0400_PP,Messidor,2,2,0.8742545169924484,0.8861972048591,REFER,ROUTINE,Predicted grade 2 — refer for ophthalmologist review
+a987aa7aac37,APTOS,0,0,0.8949287137051198,0.0475985008955064,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+857230f64a2e,APTOS,4,4,0.8716863361345462,0.9799831805667157,REFER,URGENT,"Predicted grade 4 — sight-threatening, refer promptly"
+d5b4705ac2ee,APTOS,1,0,0.8586535829336244,0.0267811090271308,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+20060411_58808_0200_PP,Messidor,0,0,0.8239797695940079,0.059939807800674004,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+IDRiD_295_train,IDRiD,0,0,0.9661596087151112,0.009906284477169978,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+21037f5c7790,APTOS,0,0,0.9674084083297144,0.0248903658383905,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+3f6c627e2ff2,APTOS,0,0,0.9562165288815788,0.0328041533900299,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+20060411_59812_0200_PP,Messidor,2,2,0.503395451798464,0.7498865755666988,REFER,ROUTINE,Predicted grade 2 — refer for ophthalmologist review
+IDRiD_146_train,IDRiD,0,0,0.7607621028531221,0.2192150697547129,REFER,PRECAUTIONARY,"Predicted grade 0, but 21.9% probability mass on grade>=2 — flagged despite low-severity top prediction"
+20060523_49875_0100_PP,Messidor,3,2,0.5440646877217747,0.6967628165124142,REFER,ROUTINE,Predicted grade 2 — refer for ophthalmologist review
+384db24ebbd7,APTOS,0,0,0.9291326944747282,0.0492714731894655,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+20060412_52038_0200_PP,Messidor,2,2,0.5040512193212092,0.522688942172503,REFER,ROUTINE,Predicted grade 2 — refer for ophthalmologist review
+10f6ef37fe43,APTOS,0,0,0.7485974140240446,0.0162472773032116,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+0d744aed4d64,APTOS,0,0,0.9478118057194752,0.0316883619971288,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+75369248dba0,APTOS,0,0,0.9854621916367656,0.0080180339944388,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+IM002732,Messidor,0,0,0.5380407658345685,0.4224226025972786,REFER,PRECAUTIONARY,"Predicted grade 0, but 42.2% probability mass on grade>=2 — flagged despite low-severity top prediction"
+144b01e7b993,APTOS,2,2,0.7116523357618787,0.9502845180757171,REFER,ROUTINE,Predicted grade 2 — refer for ophthalmologist review
+IDRiD_119_train,IDRiD,4,3,0.5200223483084976,0.9852392471071284,REFER,URGENT,"Predicted grade 3 — sight-threatening, refer promptly"
+98e44127872f,APTOS,0,0,0.9679457184411594,0.008252432081215913,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+178412895d5e,APTOS,0,0,0.9261719175462524,0.0559936152122068,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+20060407_39546_0200_PP,Messidor,0,0,0.4812300566193644,0.20726517446765028,REFER,PRECAUTIONARY,"Predicted grade 0, but 20.7% probability mass on grade>=2 — flagged despite low-severity top prediction"
+20060412_59242_0200_PP,Messidor,2,0,0.6671430850010709,0.043090956017643796,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+20060407_44400_0200_PP,Messidor,0,0,0.5644364128420436,0.32931672095308595,REFER,PRECAUTIONARY,"Predicted grade 0, but 32.9% probability mass on grade>=2 — flagged despite low-severity top prediction"
+20060410_47042_0200_PP,Messidor,2,0,0.4399865625375049,0.15193932743473051,REFER,PRECAUTIONARY,Predicted grade 0 but low overall confidence (0.44)
+IM003359,Messidor,4,2,0.4837178085901578,0.8377086093664263,REFER,ROUTINE,Predicted grade 2 — refer for ophthalmologist review
+IM002269,Messidor,3,3,0.6694024749512921,0.9318853408424216,REFER,URGENT,"Predicted grade 3 — sight-threatening, refer promptly"
+IM004645,Messidor,0,0,0.8340440147582431,0.04656620022360179,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+IDRiD_063_test,IDRiD,1,0,0.6956097163499154,0.28137666621084384,REFER,PRECAUTIONARY,"Predicted grade 0, but 28.1% probability mass on grade>=2 — flagged despite low-severity top prediction"
+80e6e425f966,APTOS,0,0,0.9745367972840584,0.012780934031680194,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+20060522_45853_0100_PP,Messidor,0,0,0.7966981788413345,0.1429716729704262,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+20060523_45787_0100_PP,Messidor,2,2,0.4152997787930131,0.4189674782435503,REFER,ROUTINE,Predicted grade 2 — refer for ophthalmologist review
+20060407_43258_0200_PP,Messidor,0,0,0.772744691032758,0.14433956153138708,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+20060522_45777_0100_PP,Messidor,0,0,0.7207833731282107,0.178495009065573,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+cb2f3c5d71a7,APTOS,1,2,0.5433121253392702,0.5518385044912791,REFER,ROUTINE,Predicted grade 2 — refer for ophthalmologist review
+IM000859,Messidor,0,0,0.9169870680657722,0.0331667869655958,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+IDRiD_012_test,IDRiD,2,0,0.4042961431073752,0.40710582930987427,REFER,PRECAUTIONARY,"Predicted grade 0, but 40.7% probability mass on grade>=2 — flagged despite low-severity top prediction"
+bcc762618e7d,APTOS,2,2,0.5046928576051883,0.9597468563724265,REFER,ROUTINE,Predicted grade 2 — refer for ophthalmologist review
+IM000924,Messidor,0,0,0.7981026180472596,0.0790174901731555,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+20051130_59793_0400_PP,Messidor,0,0,0.4635123057189855,0.1186806597360722,REFER,PRECAUTIONARY,Predicted grade 0 but low overall confidence (0.46)
+IDRiD_103_test,IDRiD,0,0,0.5958782161877685,0.1121296008381584,REFER,PRECAUTIONARY,Predicted grade 0 but low overall confidence (0.60)
+20060407_42290_0200_PP,Messidor,0,0,0.8737079243436745,0.039905550539574196,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+97fdee242fea,APTOS,0,0,0.9335470354693476,0.045205061098690505,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+IDRiD_131_train,IDRiD,2,2,0.560688917467078,0.626263359025759,REFER,ROUTINE,Predicted grade 2 — refer for ophthalmologist review
+20051021_40018_0100_PP,Messidor,1,1,0.4952967659924447,0.0434857755026161,REFER,PRECAUTIONARY,Predicted grade 1 but low overall confidence (0.50)
+IM000167,Messidor,0,0,0.9357711724252512,0.0244506288876317,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+c334f8688b77,APTOS,0,0,0.9910209737641272,0.0031258361421551977,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+IM004668,Messidor,0,0,0.7880670275889433,0.0236496132782709,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+20051130_59464_0400_PP,Messidor,0,0,0.5268333231040839,0.20226564282166798,REFER,PRECAUTIONARY,"Predicted grade 0, but 20.2% probability mass on grade>=2 — flagged despite low-severity top prediction"
+20060412_57974_0200_PP,Messidor,0,1,0.6168318269472135,0.1303244065773474,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 1, high confidence, low referral-risk probability mass"
+IM002822,Messidor,0,0,0.8926094840889597,0.0266283405948328,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+acf976efd7ce,APTOS,0,0,0.9791869547715488,0.0117734243411008,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+215d2b7c3fde,APTOS,0,0,0.9134669007098905,0.06721795499199851,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+c6229222bf22,APTOS,0,0,0.9057742960875352,0.0703758424671878,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+20060411_59190_0200_PP,Messidor,2,2,0.6357223681864907,0.6710960177920183,REFER,ROUTINE,Predicted grade 2 — refer for ophthalmologist review
+da2bdf4236ac,APTOS,0,0,0.7752331254217703,0.1928159603425992,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+IM003519,Messidor,0,0,0.9392268604619924,0.0284224463869372,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+20060412_59658_0200_PP,Messidor,1,0,0.7509182234695475,0.0894009314734103,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+18f1f979d30d,APTOS,2,2,0.6628340841408266,0.8601816150955854,REFER,ROUTINE,Predicted grade 2 — refer for ophthalmologist review
+996f9bba4ef0,APTOS,0,0,0.9582653501917217,0.005699702051858613,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+20060410_41098_0200_PP,Messidor,0,0,0.5460990499555403,0.21135408468192962,REFER,PRECAUTIONARY,"Predicted grade 0, but 21.1% probability mass on grade>=2 — flagged despite low-severity top prediction"
+0e43c8298fc0,APTOS,0,0,0.9531700327550452,0.0267913406371533,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+7fc3a8bb40de,APTOS,0,0,0.9670989580571632,0.018901704666417305,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+33b91def2035,APTOS,0,0,0.9720566158088868,0.0194458509919959,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+20060410_41209_0200_PP,Messidor,0,1,0.3889570455143337,0.3235163622081007,REFER,PRECAUTIONARY,"Predicted grade 1, but 32.4% probability mass on grade>=2 — flagged despite low-severity top prediction"
+IM002998,Messidor,0,0,0.9501185009548324,0.031118766235361712,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+IDRiD_255_train,IDRiD,0,0,0.9645202760571248,0.0213483760147002,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+20060412_59100_0200_PP,Messidor,1,3,0.5611970709145023,0.6253751260062176,REFER,URGENT,"Predicted grade 3 — sight-threatening, refer promptly"
+IDRiD_190_train,IDRiD,0,0,0.8305076041662354,0.07950467877037659,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+d6dbb0820ea5,APTOS,0,0,0.9780410551079772,0.010700371152138899,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+20051130_60691_0400_PP,Messidor,0,0,0.8335200802330387,0.10545906893240001,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+IDRiD_098_test,IDRiD,0,0,0.6040169105619894,0.3059139789192774,REFER,PRECAUTIONARY,"Predicted grade 0, but 30.6% probability mass on grade>=2 — flagged despite low-severity top prediction"
+20060407_45949_0200_PP,Messidor,0,0,0.6543133429585118,0.0726170760636731,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+IM004154,Messidor,0,0,0.850022339811682,0.03414572356906451,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+3e1f8fecb06f,APTOS,2,2,0.7552028040403815,0.9492042004646553,REFER,ROUTINE,Predicted grade 2 — refer for ophthalmologist review
+a0e635689259,APTOS,0,0,0.914626852950095,0.0556668812275552,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+b2b7ccd34cbd,APTOS,0,0,0.9733016902509068,0.014304018501155324,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+1dfe599d12a9,APTOS,0,0,0.9589183104039064,0.027289372828025397,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+a07d571bf7ba,APTOS,0,0,0.9683863015938374,0.0183473795018016,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+20051214_41055_0100_PP,Messidor,0,0,0.7576658625019494,0.022614974915989797,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+aec51513cf45,APTOS,0,0,0.9770109310767842,0.0144803638020417,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+568455854a11,APTOS,0,0,0.940326107595162,0.036985837599719996,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+20051020_43906_0100_PP,Messidor,2,0,0.621406149230819,0.054764858305819,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+IM004621,Messidor,0,0,0.8972493533151402,0.08390422961699544,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+0790515cf5af,APTOS,0,0,0.643605051062597,0.28191279831331645,REFER,PRECAUTIONARY,"Predicted grade 0, but 28.2% probability mass on grade>=2 — flagged despite low-severity top prediction"
+IM001751,Messidor,4,4,0.3495381650347962,0.8340980919407073,REFER,URGENT,"Predicted grade 4 — sight-threatening, refer promptly"
+525d0dd8dc45,APTOS,0,0,0.9471002591620096,0.0344097511733581,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+18b99159a14f,APTOS,0,0,0.9840708455161102,0.0073569785788274,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+194814669fee,APTOS,1,1,0.3887101285147387,0.4097056129389702,REFER,PRECAUTIONARY,"Predicted grade 1, but 41.0% probability mass on grade>=2 — flagged despite low-severity top prediction"
+20051202_48393_0400_PP,Messidor,1,0,0.8856724613048008,0.0393422315697328,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+IDRiD_076_test,IDRiD,2,0,0.7093872522497613,0.1219595213790133,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+20051201_38081_0400_PP,Messidor,0,0,0.7509383230035376,0.0599153488625563,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+20060529_56442_0100_PP,Messidor,0,0,0.7416345393084449,0.1176217420593245,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+835b9f6e12ba,APTOS,0,0,0.955288227357407,0.024250146842257698,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+IDRiD_115_train,IDRiD,3,4,0.6899030306814915,0.96099858940831,REFER,URGENT,"Predicted grade 4 — sight-threatening, refer promptly"
+eadc57064154,APTOS,4,4,0.9339299531870056,0.9682149755817077,REFER,URGENT,"Predicted grade 4 — sight-threatening, refer promptly"
+IM002134,Messidor,0,0,0.9189051237317984,0.057439766791561694,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+cd8da43e3069,APTOS,0,0,0.7158620418583935,0.039936897360393714,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+8185ce1cdcef,APTOS,0,0,0.9769067823823678,0.012195333414717253,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+IM002901,Messidor,1,0,0.9373798088220332,0.0382282885281467,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+d881c04f01fe,APTOS,0,0,0.5053893854017216,0.4562833641687212,REFER,PRECAUTIONARY,"Predicted grade 0, but 45.6% probability mass on grade>=2 — flagged despite low-severity top prediction"
+20060410_47186_0200_PP,Messidor,0,1,0.4215711150643128,0.38521799203201856,REFER,PRECAUTIONARY,"Predicted grade 1, but 38.5% probability mass on grade>=2 — flagged despite low-severity top prediction"
+IM000696,Messidor,0,0,0.7510260528073812,0.1913867320437381,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+IM002649,Messidor,0,0,0.6825159357886728,0.0807192990438943,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+IDRiD_216_train,IDRiD,2,0,0.8036477589184605,0.1164260068125113,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+IDRiD_035_train,IDRiD,3,4,0.534635723237169,0.962721794249991,REFER,URGENT,"Predicted grade 4 — sight-threatening, refer promptly"
+20060412_59636_0200_PP,Messidor,1,0,0.4609234363507837,0.1030814236502121,REFER,PRECAUTIONARY,Predicted grade 0 but low overall confidence (0.46)
+f9aa35187bf3,APTOS,2,0,0.9628386543270588,0.024983721634347,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+2d552318eb07,APTOS,2,4,0.3280877707812257,0.5627983589826503,REFER,URGENT,"Predicted grade 4 — sight-threatening, refer promptly"
+9a1029536d78,APTOS,0,0,0.9790596000135444,0.010176733123105701,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+IM000080,Messidor,0,0,0.52458417511714,0.19351310408509498,REFER,PRECAUTIONARY,Predicted grade 0 but low overall confidence (0.52)
+91e82fe4e434,APTOS,0,0,0.8679923811167786,0.0494594348362215,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+20060407_46257_0200_PP,Messidor,0,0,0.5249981581887213,0.09756667437597939,REFER,PRECAUTIONARY,Predicted grade 0 but low overall confidence (0.52)
+IM002019,Messidor,0,0,0.9654813468731138,0.015406196049130998,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+4731e708ede3,APTOS,0,0,0.9581811273956212,0.0320680255491465,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+0bf37ca3156a,APTOS,4,2,0.6089155059115554,0.822076826967553,REFER,ROUTINE,Predicted grade 2 — refer for ophthalmologist review
+20051205_58091_0400_PP,Messidor,0,1,0.4765095373105558,0.0519415610333497,REFER,PRECAUTIONARY,Predicted grade 1 but low overall confidence (0.48)
+IM004392,Messidor,0,0,0.9553850820469278,0.025250598521574998,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+IM001797,Messidor,0,0,0.772350389101656,0.0577351335864535,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+ec6f1797a25a,APTOS,0,0,0.9864877695936916,0.0076328997522244,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+be197b663520,APTOS,0,0,0.9508874209066618,0.0203123722347485,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+IDRiD_173_train,IDRiD,0,2,0.5635994625649978,0.6747862390081376,REFER,ROUTINE,Predicted grade 2 — refer for ophthalmologist review
+20051130_59029_0400_PP,Messidor,0,0,0.8483364110998673,0.042847258394062504,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+IDRiD_139_train,IDRiD,0,0,0.8998766244275023,0.0743476663577722,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+20060411_59919_0200_PP,Messidor,2,2,0.6967957379075789,0.7288872179763334,REFER,ROUTINE,Predicted grade 2 — refer for ophthalmologist review
+IDRiD_087_train,IDRiD,2,2,0.6280034293597052,0.9614535728921476,REFER,ROUTINE,Predicted grade 2 — refer for ophthalmologist review
+IM000654,Messidor,1,0,0.877022603257009,0.0886878110023475,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+0da09e3ce8f1,APTOS,2,2,0.7997498608903566,0.9366979969142125,REFER,ROUTINE,Predicted grade 2 — refer for ophthalmologist review
+a5c9a8c726b2,APTOS,4,2,0.5292005246803557,0.8839924838200452,REFER,ROUTINE,Predicted grade 2 — refer for ophthalmologist review
+780be525036d,APTOS,0,0,0.9511180627837322,0.0346916303332423,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+0709652336e2,APTOS,0,0,0.9293647588191116,0.0530926231959851,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+e4ae1ee6aada,APTOS,0,0,0.9870827091774392,0.0070407082201742865,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+20051205_58409_0400_PP,Messidor,0,2,0.4253589621213486,0.4330513871290072,REFER,ROUTINE,Predicted grade 2 — refer for ophthalmologist review
+20060529_57156_0100_PP,Messidor,2,2,0.6500191103916786,0.6629186057763155,REFER,ROUTINE,Predicted grade 2 — refer for ophthalmologist review
+IM004440,Messidor,0,0,0.9658284909685242,0.014020301676762898,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+IM002615,Messidor,0,0,0.8160017255122461,0.0473162314574741,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+08f8838d69bb,APTOS,0,0,0.9808512990099026,0.011718480515832996,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+09eeafa9656a,APTOS,2,2,0.8002295713434819,0.9679058277731373,REFER,ROUTINE,Predicted grade 2 — refer for ophthalmologist review
+20051214_40994_0100_PP,Messidor,0,0,0.8737979719712256,0.08374864824468181,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+IM001089,Messidor,0,0,0.7277490918872284,0.0188874889064078,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+20060410_43868_0200_PP,Messidor,0,0,0.8303433324864409,0.036399590191962004,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+20060412_52194_0200_PP,Messidor,2,0,0.7111908217126136,0.13572340977352287,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+0fffa73e2402,APTOS,2,2,0.4064239769430324,0.8243205510413469,REFER,ROUTINE,Predicted grade 2 — refer for ophthalmologist review
+20051021_40248_0100_PP,Messidor,2,1,0.4297635051077386,0.2368145726955947,REFER,PRECAUTIONARY,"Predicted grade 1, but 23.7% probability mass on grade>=2 — flagged despite low-severity top prediction"
+da9fe02dead3,APTOS,0,0,0.9641808318233742,0.0189306292057817,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+24b943fe725e,APTOS,1,2,0.3889691893617033,0.5709706866142307,REFER,ROUTINE,Predicted grade 2 — refer for ophthalmologist review
+1fb455685328,APTOS,0,0,0.988201859696846,0.0059089936240888105,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+IM001372,Messidor,3,3,0.6308847453444898,0.8375504897777583,REFER,URGENT,"Predicted grade 3 — sight-threatening, refer promptly"
+d26bc6e1230d,APTOS,0,0,0.977500523150683,0.0126721829503042,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+20051205_57757_0400_PP,Messidor,0,0,0.8007583801504722,0.0359736493981668,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+20060523_49010_0100_PP,Messidor,2,1,0.6489727850050713,0.2653411879371889,REFER,PRECAUTIONARY,"Predicted grade 1, but 26.5% probability mass on grade>=2 — flagged despite low-severity top prediction"
+3bf3085ac167,APTOS,0,0,0.9898368382797912,0.005371560808161596,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+000c1434d8d7,APTOS,2,2,0.5408488468910229,0.606860843043996,REFER,ROUTINE,Predicted grade 2 — refer for ophthalmologist review
+IM001110,Messidor,1,0,0.7881747235540945,0.0836867679818676,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+20060523_50234_0100_PP,Messidor,2,2,0.662534976070061,0.6707817594437897,REFER,ROUTINE,Predicted grade 2 — refer for ophthalmologist review
+6c30dd481717,APTOS,0,0,0.9522364539806304,0.0247514573862591,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+3b0190bbe615,APTOS,0,0,0.9736828860381508,0.0142319162940235,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+IDRiD_332_train,IDRiD,2,2,0.7067424918192051,0.9342213539715852,REFER,ROUTINE,Predicted grade 2 — refer for ophthalmologist review
+20051216_44939_0200_PP,Messidor,2,2,0.5020720141155628,0.5061315528187006,REFER,ROUTINE,Predicted grade 2 — refer for ophthalmologist review
+20060412_59355_0200_PP,Messidor,0,0,0.5859224066329596,0.0869791191571557,REFER,PRECAUTIONARY,Predicted grade 0 but low overall confidence (0.59)
+IM000406,Messidor,1,0,0.9047857784367908,0.037753114454245,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+20060523_48990_0100_PP,Messidor,2,2,0.6169812778781237,0.6225051444492288,REFER,ROUTINE,Predicted grade 2 — refer for ophthalmologist review
+IM002201,Messidor,0,0,0.9425091469507044,0.038137487962089996,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+7ee6de71c140,APTOS,0,0,0.957437023416491,0.021968365690925,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+20060407_45247_0200_PP,Messidor,0,0,0.9191962592224578,0.057133154519367506,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+IM003207,Messidor,0,0,0.9335297271753196,0.0384125197515561,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+20060523_50556_0100_PP,Messidor,3,3,0.7020685472230005,0.9527467849064187,REFER,URGENT,"Predicted grade 3 — sight-threatening, refer promptly"
+20051021_59459_0100_PP,Messidor,4,2,0.4236546871819548,0.940149912588823,REFER,ROUTINE,Predicted grade 2 — refer for ophthalmologist review
+65f69234c8a7,APTOS,0,0,0.9842538334665184,0.008365304195713326,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+f3b27ac2d371,APTOS,0,0,0.969457213813568,0.011386917722265431,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+17d7d6b092f4,APTOS,0,0,0.950551690500439,0.0332493927989486,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+50916d67bb51,APTOS,0,0,0.9457533868822616,0.0340936865477183,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+IDRiD_044_train,IDRiD,2,2,0.8239629116969378,0.9584611336081738,REFER,ROUTINE,Predicted grade 2 — refer for ophthalmologist review
+4dd4a4bf2421,APTOS,0,0,0.972941361106359,0.0151890211314167,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+20051110_34071_0400_PP,Messidor,1,0,0.8207910369909225,0.0642446265595306,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+IM003747,Messidor,0,0,0.9687610681607464,0.0197657521225201,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+2821998fc002,APTOS,0,0,0.9473300989998156,0.0343772425590337,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+20060523_45369_0100_PP,Messidor,2,2,0.6234116266076576,0.6355868184770447,REFER,ROUTINE,Predicted grade 2 — refer for ophthalmologist review
+20051020_62385_0100_PP,Messidor,3,2,0.6787354379152137,0.8092759639842811,REFER,ROUTINE,Predicted grade 2 — refer for ophthalmologist review
+20051205_58373_0400_PP,Messidor,0,0,0.6341666904674612,0.2152029073723908,REFER,PRECAUTIONARY,"Predicted grade 0, but 21.5% probability mass on grade>=2 — flagged despite low-severity top prediction"
+IM001880,Messidor,1,0,0.930909481076135,0.0446446052543936,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+20051216_47668_0200_PP,Messidor,2,2,0.8013303787852745,0.8193572659449716,REFER,ROUTINE,Predicted grade 2 — refer for ophthalmologist review
+20051205_59300_0400_PP,Messidor,1,0,0.7896406796720978,0.0620001277412353,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+58c12863f33d,APTOS,0,0,0.9529474915174702,0.024724371838293,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+190a309f2cc5,APTOS,0,0,0.9768378508675312,0.013104538126546161,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+a0b7ad98df57,APTOS,0,0,0.9781087950207464,0.012744143104346201,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+f451eee2b66b,APTOS,0,0,0.9718037006413756,0.0193901431813632,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+20051020_63045_0100_PP,Messidor,1,1,0.395607218227096,0.3375478275727814,REFER,PRECAUTIONARY,"Predicted grade 1, but 33.8% probability mass on grade>=2 — flagged despite low-severity top prediction"
+IM004306,Messidor,0,0,0.7715859719449704,0.1833568496195499,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+IDRiD_235_train,IDRiD,0,0,0.9372146678375356,0.0443194241681628,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+IDRiD_356_train,IDRiD,3,3,0.4934056252607859,0.9737301863348857,REFER,URGENT,"Predicted grade 3 — sight-threatening, refer promptly"
+IDRiD_282_train,IDRiD,2,1,0.4262443523883501,0.4168119663998734,REFER,PRECAUTIONARY,"Predicted grade 1, but 41.7% probability mass on grade>=2 — flagged despite low-severity top prediction"
+20051110_38111_0400_PP,Messidor,0,0,0.8513353107632595,0.023103380339910596,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+1b495ac025b7,APTOS,3,4,0.4770356681148383,0.9543757656633762,REFER,URGENT,"Predicted grade 4 — sight-threatening, refer promptly"
+060e00d1e2ab,APTOS,0,0,0.9603298954542778,0.0275268887019886,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+20051110_38194_0400_PP,Messidor,1,0,0.6297160115343816,0.09422083526573541,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+84b79243e430,APTOS,0,0,0.9814797423687778,0.0081710752219586,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"
+IM004241,Messidor,0,0,0.8033845557361512,0.1286071461401358,NO_REFERRAL,ROUTINE_RESCREEN,"Predicted grade 0, high confidence, low referral-risk probability mass"

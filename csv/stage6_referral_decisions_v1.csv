@@ -1,0 +1,562 @@
+unique_id,dataset,true_dr_grade,predicted_dr_grade,confidence_score,referral_decision,urgency,reason
+20060410_39500_0200_PP,Messidor,0,0,0.6369480607088599,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.64) — routine rescreening interval
+68ddb15a74de,APTOS,0,0,0.842798344126592,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.84) — routine rescreening interval
+IDRiD_348_train,IDRiD,2,4,0.4890993442083053,REFER,URGENT,"Predicted grade 4 (severe/proliferative DR) — sight-threatening, refer promptly"
+20060412_59012_0200_PP,Messidor,1,2,0.6727436162492092,REFER,ROUTINE,Predicted grade 2 (moderate NPDR) — refer for ophthalmologist review
+19113e5f45ec,APTOS,2,2,0.9079141105967474,REFER,ROUTINE,Predicted grade 2 (moderate NPDR) — refer for ophthalmologist review
+bd500a73beae,APTOS,0,0,0.8970162589823767,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.90) — routine rescreening interval
+IM002909,Messidor,0,0,0.9135130043849008,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.91) — routine rescreening interval
+19722bff5a09,APTOS,1,1,0.8854212347881918,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 1 with high confidence (0.89) — routine rescreening interval
+20060529_56834_0100_PP,Messidor,2,2,0.6972203175398654,REFER,ROUTINE,Predicted grade 2 (moderate NPDR) — refer for ophthalmologist review
+5b3d41626ec5,APTOS,0,0,0.9769444937019076,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.98) — routine rescreening interval
+83a63c4a3e4a,APTOS,0,0,0.9854577749293714,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.99) — routine rescreening interval
+20060411_61869_0200_PP,Messidor,0,1,0.532293076028684,REFER,PRECAUTIONARY,Predicted grade 1 but low model confidence (0.53) — flagged for manual review rather than trusting automated grading
+5a0fe0ee4301,APTOS,0,0,0.9738772646427764,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.97) — routine rescreening interval
+20060530_53271_0100_PP,Messidor,3,2,0.717349199052239,REFER,ROUTINE,Predicted grade 2 (moderate NPDR) — refer for ophthalmologist review
+IDRiD_375_train,IDRiD,2,2,0.9145352962755752,REFER,ROUTINE,Predicted grade 2 (moderate NPDR) — refer for ophthalmologist review
+20051214_56944_0100_PP,Messidor,4,0,0.3447994602226285,REFER,PRECAUTIONARY,Predicted grade 0 but low model confidence (0.34) — flagged for manual review rather than trusting automated grading
+IM000923,Messidor,0,0,0.8804887752289512,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.88) — routine rescreening interval
+20051020_57967_0100_PP,Messidor,0,0,0.6956503538778274,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.70) — routine rescreening interval
+1d37f1c8b6d8,APTOS,0,0,0.9933330061944036,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.99) — routine rescreening interval
+IM004005,Messidor,0,0,0.952586782324004,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.95) — routine rescreening interval
+20060412_58723_0200_PP,Messidor,0,0,0.7470384195673699,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.75) — routine rescreening interval
+IDRiD_029_train,IDRiD,2,2,0.4319661188735855,REFER,ROUTINE,Predicted grade 2 (moderate NPDR) — refer for ophthalmologist review
+IM003603,Messidor,1,0,0.957825312872672,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.96) — routine rescreening interval
+IDRiD_229_train,IDRiD,0,2,0.4575044379342614,REFER,ROUTINE,Predicted grade 2 (moderate NPDR) — refer for ophthalmologist review
+188a9323be03,APTOS,2,2,0.6326921445377451,REFER,ROUTINE,Predicted grade 2 (moderate NPDR) — refer for ophthalmologist review
+IDRiD_338_train,IDRiD,2,2,0.8033859653209232,REFER,ROUTINE,Predicted grade 2 (moderate NPDR) — refer for ophthalmologist review
+20051130_54846_0400_PP,Messidor,0,0,0.8710464358193803,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.87) — routine rescreening interval
+07d8db76b301,APTOS,2,2,0.8778752028873574,REFER,ROUTINE,Predicted grade 2 (moderate NPDR) — refer for ophthalmologist review
+IDRiD_364_train,IDRiD,3,3,0.8040104129433142,REFER,URGENT,"Predicted grade 3 (severe/proliferative DR) — sight-threatening, refer promptly"
+6f0e5848d9ce,APTOS,0,0,0.97037560959053,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.97) — routine rescreening interval
+0e82bcacc475,APTOS,4,4,0.6715374863717174,REFER,URGENT,"Predicted grade 4 (severe/proliferative DR) — sight-threatening, refer promptly"
+IDRiD_125_train,IDRiD,2,2,0.4725471432851619,REFER,ROUTINE,Predicted grade 2 (moderate NPDR) — refer for ophthalmologist review
+20051020_57622_0100_PP,Messidor,2,2,0.8671977818995266,REFER,ROUTINE,Predicted grade 2 (moderate NPDR) — refer for ophthalmologist review
+0fb560f9adb2,APTOS,2,1,0.4532476243034358,REFER,PRECAUTIONARY,Predicted grade 1 but low model confidence (0.45) — flagged for manual review rather than trusting automated grading
+IM001688,Messidor,0,0,0.9177982458320036,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.92) — routine rescreening interval
+IM001308,Messidor,0,0,0.8917814554683885,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.89) — routine rescreening interval
+IDRiD_065_train,IDRiD,3,2,0.503650774663952,REFER,ROUTINE,Predicted grade 2 (moderate NPDR) — refer for ophthalmologist review
+IM003811,Messidor,2,0,0.6439940282622925,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.64) — routine rescreening interval
+20060530_55724_0100_PP,Messidor,3,3,0.7065922713864112,REFER,URGENT,"Predicted grade 3 (severe/proliferative DR) — sight-threatening, refer promptly"
+IM002895,Messidor,0,0,0.7240986788829982,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.72) — routine rescreening interval
+IDRiD_346_train,IDRiD,0,0,0.8674576773134861,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.87) — routine rescreening interval
+58a9e0d7f7af,APTOS,0,0,0.9485360968452756,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.95) — routine rescreening interval
+a2811f512c1c,APTOS,0,0,0.9116197750864968,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.91) — routine rescreening interval
+d30d079e6f9a,APTOS,0,0,0.7606927048328159,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.76) — routine rescreening interval
+IM001252,Messidor,0,0,0.6605979484032213,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.66) — routine rescreening interval
+IM001629,Messidor,0,0,0.8953905084101876,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.90) — routine rescreening interval
+52ddde91a349,APTOS,0,0,0.9853694457131564,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.99) — routine rescreening interval
+1ade1e949383,APTOS,2,2,0.8490643321379301,REFER,ROUTINE,Predicted grade 2 (moderate NPDR) — refer for ophthalmologist review
+1db0393cdbc1,APTOS,0,0,0.9406571998284088,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.94) — routine rescreening interval
+81914ceb4e74,APTOS,0,0,0.9792690186241296,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.98) — routine rescreening interval
+dee1031a76ae,APTOS,0,0,0.6931586858493146,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.69) — routine rescreening interval
+f994a3b07935,APTOS,0,0,0.9201046658933136,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.92) — routine rescreening interval
+0ada12c0e78f,APTOS,4,2,0.6306596836522251,REFER,ROUTINE,Predicted grade 2 (moderate NPDR) — refer for ophthalmologist review
+ae49cc60f251,APTOS,0,0,0.9702195160493884,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.97) — routine rescreening interval
+73a07e2ea23e,APTOS,0,0,0.954481500628903,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.95) — routine rescreening interval
+20060529_57351_0100_PP,Messidor,0,1,0.4144032271044892,REFER,PRECAUTIONARY,Predicted grade 1 but low model confidence (0.41) — flagged for manual review rather than trusting automated grading
+IM001139,Messidor,0,0,0.8956974955143285,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.90) — routine rescreening interval
+IDRiD_024_train,IDRiD,4,2,0.772671354478794,REFER,ROUTINE,Predicted grade 2 (moderate NPDR) — refer for ophthalmologist review
+20051130_54595_0400_PP,Messidor,0,0,0.5544940768449325,REFER,PRECAUTIONARY,Predicted grade 0 but low model confidence (0.55) — flagged for manual review rather than trusting automated grading
+4d167ca69ea8,APTOS,0,0,0.8965663108426891,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.90) — routine rescreening interval
+8c29a76fa08c,APTOS,0,0,0.7897761781977601,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.79) — routine rescreening interval
+e1dc02a3dc2a,APTOS,0,0,0.9561422371436314,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.96) — routine rescreening interval
+9688c6ef5dc5,APTOS,0,0,0.989574612828434,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.99) — routine rescreening interval
+20051116_54642_0400_PP,Messidor,1,0,0.513492616292667,REFER,PRECAUTIONARY,Predicted grade 0 but low model confidence (0.51) — flagged for manual review rather than trusting automated grading
+20060410_41880_0200_PP,Messidor,0,2,0.5040186196303806,REFER,ROUTINE,Predicted grade 2 (moderate NPDR) — refer for ophthalmologist review
+20060411_60028_0200_PP,Messidor,1,0,0.6413544725333542,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.64) — routine rescreening interval
+20060412_59735_0200_PP,Messidor,2,2,0.640240900697409,REFER,ROUTINE,Predicted grade 2 (moderate NPDR) — refer for ophthalmologist review
+dccdf750c962,APTOS,0,0,0.9642678441214488,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.96) — routine rescreening interval
+IM000212,Messidor,0,0,0.9089095452931436,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.91) — routine rescreening interval
+20060410_47331_0200_PP,Messidor,1,0,0.6666237301918995,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.67) — routine rescreening interval
+20060412_58054_0200_PP,Messidor,0,0,0.8648049379328624,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.86) — routine rescreening interval
+IM004169,Messidor,0,0,0.9230400979045076,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.92) — routine rescreening interval
+20060412_61222_0200_PP,Messidor,2,2,0.4801350400365583,REFER,ROUTINE,Predicted grade 2 (moderate NPDR) — refer for ophthalmologist review
+20051201_38164_0400_PP,Messidor,0,0,0.6752728439931086,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.68) — routine rescreening interval
+20060523_48425_0100_PP,Messidor,1,0,0.916211867045162,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.92) — routine rescreening interval
+20051205_59858_0400_PP,Messidor,0,0,0.8316426413350722,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.83) — routine rescreening interval
+20051214_41490_0100_PP,Messidor,2,3,0.4843664168692834,REFER,URGENT,"Predicted grade 3 (severe/proliferative DR) — sight-threatening, refer promptly"
+942f544c4e15,APTOS,0,0,0.9429641009556194,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.94) — routine rescreening interval
+b351ae99413a,APTOS,0,0,0.9731661944521226,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.97) — routine rescreening interval
+956765d5f46d,APTOS,0,0,0.9397875306148618,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.94) — routine rescreening interval
+20060412_59175_0200_PP,Messidor,0,0,0.51381842701515,REFER,PRECAUTIONARY,Predicted grade 0 but low model confidence (0.51) — flagged for manual review rather than trusting automated grading
+f9d52509c571,APTOS,0,0,0.9386780265835546,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.94) — routine rescreening interval
+77543f66a84a,APTOS,2,2,0.8692554432564247,REFER,ROUTINE,Predicted grade 2 (moderate NPDR) — refer for ophthalmologist review
+20051214_42197_0100_PP,Messidor,0,0,0.4055416639662647,REFER,PRECAUTIONARY,Predicted grade 0 but low model confidence (0.41) — flagged for manual review rather than trusting automated grading
+IM000725,Messidor,1,0,0.9391262550456568,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.94) — routine rescreening interval
+4c17e85686f0,APTOS,0,0,0.9164585350885136,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.92) — routine rescreening interval
+IM003879,Messidor,0,0,0.7942976451572823,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.79) — routine rescreening interval
+11b5c77fbf79,APTOS,2,0,0.5949284129387649,REFER,PRECAUTIONARY,Predicted grade 0 but low model confidence (0.59) — flagged for manual review rather than trusting automated grading
+20060529_57174_0100_PP,Messidor,1,2,0.5113569563683606,REFER,ROUTINE,Predicted grade 2 (moderate NPDR) — refer for ophthalmologist review
+20060523_50342_0100_PP,Messidor,0,0,0.5269007024579123,REFER,PRECAUTIONARY,Predicted grade 0 but low model confidence (0.53) — flagged for manual review rather than trusting automated grading
+IM001514,Messidor,0,0,0.920037224766902,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.92) — routine rescreening interval
+IM002703,Messidor,0,0,0.8880596389425361,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.89) — routine rescreening interval
+20060411_58051_0200_PP,Messidor,1,0,0.7526193691173197,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.75) — routine rescreening interval
+ea68b58a6e8f,APTOS,0,0,0.976294338132646,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.98) — routine rescreening interval
+IDRiD_175_train,IDRiD,0,0,0.8029020662152908,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.80) — routine rescreening interval
+f0e1201b5c1f,APTOS,0,0,0.9546053452198444,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.95) — routine rescreening interval
+20060530_51254_0100_PP,Messidor,0,0,0.6131079204910717,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.61) — routine rescreening interval
+20060412_59037_0200_PP,Messidor,1,0,0.5341747780371499,REFER,PRECAUTIONARY,Predicted grade 0 but low model confidence (0.53) — flagged for manual review rather than trusting automated grading
+IM004554,Messidor,0,0,0.9196838572074708,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.92) — routine rescreening interval
+IDRiD_140_train,IDRiD,0,0,0.5912924157437379,REFER,PRECAUTIONARY,Predicted grade 0 but low model confidence (0.59) — flagged for manual review rather than trusting automated grading
+20051116_55656_0400_PP,Messidor,2,0,0.9446157633957794,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.94) — routine rescreening interval
+IM001581,Messidor,0,0,0.8441368572203118,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.84) — routine rescreening interval
+IM000984,Messidor,1,0,0.8777226349946186,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.88) — routine rescreening interval
+8f10e41a2f02,APTOS,0,0,0.9173994574929616,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.92) — routine rescreening interval
+20060412_52587_0200_PP,Messidor,1,1,0.4717101568881576,REFER,PRECAUTIONARY,Predicted grade 1 but low model confidence (0.47) — flagged for manual review rather than trusting automated grading
+653534ded339,APTOS,2,2,0.6335732068734663,REFER,ROUTINE,Predicted grade 2 (moderate NPDR) — refer for ophthalmologist review
+03a7f4a5786f,APTOS,4,2,0.413685541406069,REFER,ROUTINE,Predicted grade 2 (moderate NPDR) — refer for ophthalmologist review
+IDRiD_034_test,IDRiD,3,2,0.5969915923653644,REFER,ROUTINE,Predicted grade 2 (moderate NPDR) — refer for ophthalmologist review
+20060410_39976_0200_PP,Messidor,1,1,0.5910465032994369,REFER,PRECAUTIONARY,Predicted grade 1 but low model confidence (0.59) — flagged for manual review rather than trusting automated grading
+20060411_51985_0200_PP,Messidor,2,1,0.3995832787972184,REFER,PRECAUTIONARY,Predicted grade 1 but low model confidence (0.40) — flagged for manual review rather than trusting automated grading
+20051130_59850_0400_PP,Messidor,0,0,0.7980780281055946,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.80) — routine rescreening interval
+a4ee03ecff60,APTOS,0,0,0.9725278366992676,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.97) — routine rescreening interval
+IDRiD_007_train,IDRiD,4,4,0.7669702708695831,REFER,URGENT,"Predicted grade 4 (severe/proliferative DR) — sight-threatening, refer promptly"
+389552047476,APTOS,0,0,0.9360919939839614,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.94) — routine rescreening interval
+20051130_55012_0400_PP,Messidor,0,0,0.8271478465370453,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.83) — routine rescreening interval
+IM002695,Messidor,0,0,0.8476952559941474,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.85) — routine rescreening interval
+IM002034,Messidor,0,0,0.5429793086240593,REFER,PRECAUTIONARY,Predicted grade 0 but low model confidence (0.54) — flagged for manual review rather than trusting automated grading
+20051021_59243_0100_PP,Messidor,3,3,0.4603309082388117,REFER,URGENT,"Predicted grade 3 (severe/proliferative DR) — sight-threatening, refer promptly"
+IM000916,Messidor,0,0,0.9466949985757542,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.95) — routine rescreening interval
+20051205_57879_0400_PP,Messidor,0,0,0.7288015652636048,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.73) — routine rescreening interval
+20051021_57975_0100_PP,Messidor,0,0,0.9476921001348896,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.95) — routine rescreening interval
+IM001539,Messidor,0,0,0.9503166662188428,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.95) — routine rescreening interval
+20051116_59168_0400_PP,Messidor,2,2,0.550493518445865,REFER,ROUTINE,Predicted grade 2 (moderate NPDR) — refer for ophthalmologist review
+IM001582,Messidor,0,0,0.613895696209699,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.61) — routine rescreening interval
+IM002356,Messidor,0,0,0.8617004097072547,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.86) — routine rescreening interval
+IDRiD_188_train,IDRiD,2,0,0.7708318915249667,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.77) — routine rescreening interval
+54cab3596214,APTOS,2,2,0.3734532874370566,REFER,ROUTINE,Predicted grade 2 (moderate NPDR) — refer for ophthalmologist review
+d38cf0f4a9af,APTOS,0,0,0.9663662836720532,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.97) — routine rescreening interval
+IM002894,Messidor,0,0,0.9038641446549016,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.90) — routine rescreening interval
+IDRiD_198_train,IDRiD,1,0,0.6343323856671883,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.63) — routine rescreening interval
+20060407_46394_0200_PP,Messidor,2,1,0.449647758105959,REFER,PRECAUTIONARY,Predicted grade 1 but low model confidence (0.45) — flagged for manual review rather than trusting automated grading
+20051214_50895_0100_PP,Messidor,2,2,0.4666410917836929,REFER,ROUTINE,Predicted grade 2 (moderate NPDR) — refer for ophthalmologist review
+20060523_48890_0100_PP,Messidor,0,0,0.8380892087424665,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.84) — routine rescreening interval
+f0a2dc580009,APTOS,0,0,0.73766157565234,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.74) — routine rescreening interval
+IDRiD_207_train,IDRiD,3,2,0.597656295012988,REFER,ROUTINE,Predicted grade 2 (moderate NPDR) — refer for ophthalmologist review
+IDRiD_052_train,IDRiD,2,2,0.8039903900272096,REFER,ROUTINE,Predicted grade 2 (moderate NPDR) — refer for ophthalmologist review
+IM000553,Messidor,0,0,0.956257334057772,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.96) — routine rescreening interval
+0e75d51152fc,APTOS,2,2,0.5611765498364767,REFER,ROUTINE,Predicted grade 2 (moderate NPDR) — refer for ophthalmologist review
+20051214_56565_0100_PP,Messidor,2,0,0.5539022018457438,REFER,PRECAUTIONARY,Predicted grade 0 but low model confidence (0.55) — flagged for manual review rather than trusting automated grading
+20060410_41077_0200_PP,Messidor,1,1,0.3674069282130475,REFER,PRECAUTIONARY,Predicted grade 1 but low model confidence (0.37) — flagged for manual review rather than trusting automated grading
+20060411_60283_0200_PP,Messidor,2,1,0.4734869225536337,REFER,PRECAUTIONARY,Predicted grade 1 but low model confidence (0.47) — flagged for manual review rather than trusting automated grading
+IM003893,Messidor,0,0,0.8462884120730155,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.85) — routine rescreening interval
+IM001948,Messidor,0,0,0.8584806886382892,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.86) — routine rescreening interval
+5b47043942f4,APTOS,0,0,0.5267928577457722,REFER,PRECAUTIONARY,Predicted grade 0 but low model confidence (0.53) — flagged for manual review rather than trusting automated grading
+6b66b0e86f7e,APTOS,0,0,0.9864401717516592,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.99) — routine rescreening interval
+20060410_40274_0200_PP,Messidor,2,0,0.6257988474482127,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.63) — routine rescreening interval
+20051116_43954_0400_PP,Messidor,1,0,0.7120253289015813,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.71) — routine rescreening interval
+07929d32b5b3,APTOS,1,2,0.7015973774956938,REFER,ROUTINE,Predicted grade 2 (moderate NPDR) — refer for ophthalmologist review
+20051205_58037_0400_PP,Messidor,0,0,0.9360349925260416,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.94) — routine rescreening interval
+165c548185f8,APTOS,0,0,0.9721772139221946,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.97) — routine rescreening interval
+IDRiD_339_train,IDRiD,3,2,0.6395359252112138,REFER,ROUTINE,Predicted grade 2 (moderate NPDR) — refer for ophthalmologist review
+20051116_54825_0400_PP,Messidor,2,0,0.4732703217413944,REFER,PRECAUTIONARY,Predicted grade 0 but low model confidence (0.47) — flagged for manual review rather than trusting automated grading
+14e3f84445f7,APTOS,3,2,0.5369917664431045,REFER,ROUTINE,Predicted grade 2 (moderate NPDR) — refer for ophthalmologist review
+e0d229db881a,APTOS,0,0,0.9583158414408114,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.96) — routine rescreening interval
+IDRiD_185_train,IDRiD,2,2,0.8572595209259095,REFER,ROUTINE,Predicted grade 2 (moderate NPDR) — refer for ophthalmologist review
+1a369baf9ee6,APTOS,2,2,0.4630964388007802,REFER,ROUTINE,Predicted grade 2 (moderate NPDR) — refer for ophthalmologist review
+18621b9ca978,APTOS,0,0,0.8737417398271641,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.87) — routine rescreening interval
+20051021_36380_0100_PP,Messidor,0,0,0.4781083520880024,REFER,PRECAUTIONARY,Predicted grade 0 but low model confidence (0.48) — flagged for manual review rather than trusting automated grading
+IDRiD_003_train,IDRiD,2,2,0.7554530076578132,REFER,ROUTINE,Predicted grade 2 (moderate NPDR) — refer for ophthalmologist review
+15c24478ac72,APTOS,0,0,0.8305161622202819,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.83) — routine rescreening interval
+20051205_60119_0400_PP,Messidor,0,0,0.8287603552889403,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.83) — routine rescreening interval
+IM000768,Messidor,1,0,0.7017716054837032,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.70) — routine rescreening interval
+IM001245,Messidor,2,0,0.9364743746513028,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.94) — routine rescreening interval
+891329021e12,APTOS,0,0,0.9630778172041884,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.96) — routine rescreening interval
+81371b0c01ad,APTOS,0,0,0.9218842055097416,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.92) — routine rescreening interval
+242fc19be06f,APTOS,0,0,0.9753085920989236,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.98) — routine rescreening interval
+9f935fb38440,APTOS,0,0,0.9342355782833608,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.93) — routine rescreening interval
+IM001985,Messidor,0,0,0.7107588179269264,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.71) — routine rescreening interval
+a85cda5f725d,APTOS,0,0,0.9826867789690276,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.98) — routine rescreening interval
+IDRiD_312_train,IDRiD,0,0,0.7080826420743866,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.71) — routine rescreening interval
+bffca6eeb2bf,APTOS,0,0,0.960536378316164,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.96) — routine rescreening interval
+IM001103,Messidor,0,0,0.8307082847359212,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.83) — routine rescreening interval
+20051201_37534_0400_PP,Messidor,0,0,0.5863178563778487,REFER,PRECAUTIONARY,Predicted grade 0 but low model confidence (0.59) — flagged for manual review rather than trusting automated grading
+f09fd9433dff,APTOS,0,0,0.9846363417797744,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.98) — routine rescreening interval
+bb08949dd70a,APTOS,0,0,0.9690580562241244,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.97) — routine rescreening interval
+IM001227,Messidor,0,0,0.9411774125078372,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.94) — routine rescreening interval
+20060407_39780_0200_PP,Messidor,0,0,0.5522138365685516,REFER,PRECAUTIONARY,Predicted grade 0 but low model confidence (0.55) — flagged for manual review rather than trusting automated grading
+IM000888,Messidor,0,0,0.9491207353648246,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.95) — routine rescreening interval
+a9b3177f01c0,APTOS,0,0,0.9175519044592616,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.92) — routine rescreening interval
+365f8c01d994,APTOS,1,0,0.5231923679569298,REFER,PRECAUTIONARY,Predicted grade 0 but low model confidence (0.52) — flagged for manual review rather than trusting automated grading
+IDRiD_031_train,IDRiD,4,4,0.4379777179728953,REFER,URGENT,"Predicted grade 4 (severe/proliferative DR) — sight-threatening, refer promptly"
+0f495d87656a,APTOS,1,2,0.7114238405968022,REFER,ROUTINE,Predicted grade 2 (moderate NPDR) — refer for ophthalmologist review
+IDRiD_059_train,IDRiD,2,2,0.6346837373912693,REFER,ROUTINE,Predicted grade 2 (moderate NPDR) — refer for ophthalmologist review
+IM001124,Messidor,0,0,0.9267345497839208,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.93) — routine rescreening interval
+bc92a61a1f9c,APTOS,0,0,0.9295074522223756,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.93) — routine rescreening interval
+20060410_44364_0200_PP,Messidor,0,0,0.8073096478167197,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.81) — routine rescreening interval
+20051020_44261_0100_PP,Messidor,0,0,0.9584092138851732,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.96) — routine rescreening interval
+e067b06fd655,APTOS,0,0,0.9453404181329804,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.95) — routine rescreening interval
+eb050765b323,APTOS,0,0,0.9823898005840136,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.98) — routine rescreening interval
+c56293f53191,APTOS,0,0,0.9796934957530332,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.98) — routine rescreening interval
+8b568d47a1fd,APTOS,0,0,0.9824099759114504,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.98) — routine rescreening interval
+c3789c1dab96,APTOS,0,0,0.9375016908141196,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.94) — routine rescreening interval
+IM001336,Messidor,0,0,0.8331987506297915,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.83) — routine rescreening interval
+IDRiD_013_train,IDRiD,3,0,0.4214133446080753,REFER,PRECAUTIONARY,Predicted grade 0 but low model confidence (0.42) — flagged for manual review rather than trusting automated grading
+20051216_46847_0200_PP,Messidor,3,2,0.3403025386465848,REFER,ROUTINE,Predicted grade 2 (moderate NPDR) — refer for ophthalmologist review
+135575dc57c9,APTOS,2,4,0.5943341124845045,REFER,URGENT,"Predicted grade 4 (severe/proliferative DR) — sight-threatening, refer promptly"
+20051214_42323_0100_PP,Messidor,0,0,0.7387506500455787,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.74) — routine rescreening interval
+e60e4edb3ca9,APTOS,0,0,0.9328510731189688,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.93) — routine rescreening interval
+20060412_61299_0200_PP,Messidor,1,0,0.4735370774221623,REFER,PRECAUTIONARY,Predicted grade 0 but low model confidence (0.47) — flagged for manual review rather than trusting automated grading
+IM001231,Messidor,2,2,0.5713863456130857,REFER,ROUTINE,Predicted grade 2 (moderate NPDR) — refer for ophthalmologist review
+b3f31c371e59,APTOS,0,0,0.9694095883496332,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.97) — routine rescreening interval
+a963ac561580,APTOS,0,0,0.9798865410821906,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.98) — routine rescreening interval
+537e5c578f40,APTOS,0,0,0.8471636106653486,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.85) — routine rescreening interval
+9ac41b9a809e,APTOS,0,0,0.9742831305016918,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.97) — routine rescreening interval
+IDRiD_028_train,IDRiD,4,3,0.7829428313142173,REFER,URGENT,"Predicted grade 3 (severe/proliferative DR) — sight-threatening, refer promptly"
+969f92a390db,APTOS,0,0,0.9581359561308588,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.96) — routine rescreening interval
+ad20080452de,APTOS,0,0,0.9697948932628734,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.97) — routine rescreening interval
+IM000299,Messidor,0,0,0.9768836031607062,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.98) — routine rescreening interval
+20051020_44714_0100_PP,Messidor,0,1,0.3823243733314284,REFER,PRECAUTIONARY,Predicted grade 1 but low model confidence (0.38) — flagged for manual review rather than trusting automated grading
+IDRiD_220_train,IDRiD,0,0,0.8821385139919681,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.88) — routine rescreening interval
+IM004036,Messidor,0,0,0.9688493372158142,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.97) — routine rescreening interval
+a56729de89e9,APTOS,2,2,0.6523405238560016,REFER,ROUTINE,Predicted grade 2 (moderate NPDR) — refer for ophthalmologist review
+fce73678f650,APTOS,0,0,0.714192428321051,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.71) — routine rescreening interval
+IDRiD_060_train,IDRiD,2,2,0.6113542616256402,REFER,ROUTINE,Predicted grade 2 (moderate NPDR) — refer for ophthalmologist review
+20060411_58071_0200_PP,Messidor,0,1,0.582762820637101,REFER,PRECAUTIONARY,Predicted grade 1 but low model confidence (0.58) — flagged for manual review rather than trusting automated grading
+0fe31196e0e8,APTOS,0,0,0.9758305948540138,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.98) — routine rescreening interval
+20051116_54587_0400_PP,Messidor,1,2,0.6388593197433278,REFER,ROUTINE,Predicted grade 2 (moderate NPDR) — refer for ophthalmologist review
+20051130_55004_0400_PP,Messidor,0,0,0.8924225820278195,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.89) — routine rescreening interval
+IM001088,Messidor,2,0,0.7293033110962335,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.73) — routine rescreening interval
+IDRiD_336_train,IDRiD,0,0,0.9470518731593648,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.95) — routine rescreening interval
+d667af5742f6,APTOS,0,0,0.903647667816715,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.90) — routine rescreening interval
+eabc7c716255,APTOS,0,0,0.9119803070550156,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.91) — routine rescreening interval
+IM000012,Messidor,2,0,0.8391429692758365,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.84) — routine rescreening interval
+IDRiD_048_train,IDRiD,2,4,0.4340019078698055,REFER,URGENT,"Predicted grade 4 (severe/proliferative DR) — sight-threatening, refer promptly"
+84b472c49cfa,APTOS,0,0,0.9599514937707336,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.96) — routine rescreening interval
+IM000834,Messidor,1,0,0.6084612716491933,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.61) — routine rescreening interval
+IDRiD_033_train,IDRiD,4,4,0.8905206322218633,REFER,URGENT,"Predicted grade 4 (severe/proliferative DR) — sight-threatening, refer promptly"
+e2ec22b3d07e,APTOS,0,0,0.8520417990789578,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.85) — routine rescreening interval
+cf8f1bc7a215,APTOS,0,0,0.9647407800115632,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.96) — routine rescreening interval
+IDRiD_194_train,IDRiD,1,0,0.841416274027921,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.84) — routine rescreening interval
+d16e59a2b33a,APTOS,0,0,0.9853010899199334,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.99) — routine rescreening interval
+20051216_45899_0200_PP,Messidor,1,1,0.5170133689946663,REFER,PRECAUTIONARY,Predicted grade 1 but low model confidence (0.52) — flagged for manual review rather than trusting automated grading
+IM002441,Messidor,0,3,0.3753763110252064,REFER,URGENT,"Predicted grade 3 (severe/proliferative DR) — sight-threatening, refer promptly"
+d7ab5c040294,APTOS,0,0,0.9456290704461368,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.95) — routine rescreening interval
+7ae69d22075a,APTOS,1,0,0.9715548627368736,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.97) — routine rescreening interval
+18cde9649e90,APTOS,0,0,0.947503624520396,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.95) — routine rescreening interval
+20060523_45467_0100_PP,Messidor,0,2,0.5582269683812537,REFER,ROUTINE,Predicted grade 2 (moderate NPDR) — refer for ophthalmologist review
+IDRiD_334_train,IDRiD,3,2,0.5640386847564722,REFER,ROUTINE,Predicted grade 2 (moderate NPDR) — refer for ophthalmologist review
+IDRiD_152_train,IDRiD,0,0,0.6409981449094461,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.64) — routine rescreening interval
+0415fc68b176,APTOS,2,2,0.3860926487439852,REFER,ROUTINE,Predicted grade 2 (moderate NPDR) — refer for ophthalmologist review
+20051202_55735_0400_PP,Messidor,2,0,0.6413420690442361,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.64) — routine rescreening interval
+20051020_44349_0100_PP,Messidor,2,0,0.3742400633170199,REFER,PRECAUTIONARY,Predicted grade 0 but low model confidence (0.37) — flagged for manual review rather than trusting automated grading
+a2d349f567a6,APTOS,2,2,0.6235105499941711,REFER,ROUTINE,Predicted grade 2 (moderate NPDR) — refer for ophthalmologist review
+20060523_50539_0100_PP,Messidor,3,2,0.6546992656372683,REFER,ROUTINE,Predicted grade 2 (moderate NPDR) — refer for ophthalmologist review
+IM002456,Messidor,0,0,0.4381152673588164,REFER,PRECAUTIONARY,Predicted grade 0 but low model confidence (0.44) — flagged for manual review rather than trusting automated grading
+20051214_51921_0100_PP,Messidor,2,2,0.8208536561161515,REFER,ROUTINE,Predicted grade 2 (moderate NPDR) — refer for ophthalmologist review
+IDRiD_080_test,IDRiD,0,0,0.911751917931126,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.91) — routine rescreening interval
+d97911a32918,APTOS,0,0,0.9772821626316446,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.98) — routine rescreening interval
+922586d86cd8,APTOS,0,0,0.9285790081399544,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.93) — routine rescreening interval
+5d74f98d62be,APTOS,4,2,0.3883695187266212,REFER,ROUTINE,Predicted grade 2 (moderate NPDR) — refer for ophthalmologist review
+IM002853,Messidor,0,0,0.933525842101278,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.93) — routine rescreening interval
+20060411_61494_0200_PP,Messidor,2,0,0.6405652157384985,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.64) — routine rescreening interval
+IDRiD_260_train,IDRiD,2,0,0.8049758721007302,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.80) — routine rescreening interval
+IDRiD_275_train,IDRiD,0,0,0.7919911601759955,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.79) — routine rescreening interval
+IM002658,Messidor,0,0,0.9567786524670244,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.96) — routine rescreening interval
+20051116_44804_0400_PP,Messidor,1,0,0.8248120893294895,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.82) — routine rescreening interval
+20060407_44529_0200_PP,Messidor,0,1,0.5245702379696866,REFER,PRECAUTIONARY,Predicted grade 1 but low model confidence (0.52) — flagged for manual review rather than trusting automated grading
+IM000198,Messidor,0,0,0.8997810190153197,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.90) — routine rescreening interval
+20060523_48136_0100_PP,Messidor,0,2,0.5088064146980532,REFER,ROUTINE,Predicted grade 2 (moderate NPDR) — refer for ophthalmologist review
+IDRiD_214_train,IDRiD,0,0,0.609893889970255,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.61) — routine rescreening interval
+115e42dd6a81,APTOS,2,2,0.5782966193458954,REFER,ROUTINE,Predicted grade 2 (moderate NPDR) — refer for ophthalmologist review
+20060411_58238_0200_PP,Messidor,2,2,0.5379174587543735,REFER,ROUTINE,Predicted grade 2 (moderate NPDR) — refer for ophthalmologist review
+20051130_58716_0400_PP,Messidor,0,0,0.8473482716648578,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.85) — routine rescreening interval
+IDRiD_309_train,IDRiD,3,3,0.4027709292811841,REFER,URGENT,"Predicted grade 3 (severe/proliferative DR) — sight-threatening, refer promptly"
+20060411_61060_0200_PP,Messidor,1,0,0.6937703574719809,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.69) — routine rescreening interval
+IM001181,Messidor,0,0,0.9543903924491234,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.95) — routine rescreening interval
+20051212_36548_0400_PP,Messidor,1,0,0.7252767130653113,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.73) — routine rescreening interval
+4dd14c380696,APTOS,0,0,0.952107109826714,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.95) — routine rescreening interval
+20051201_37557_0400_PP,Messidor,0,1,0.3586789038310474,REFER,PRECAUTIONARY,Predicted grade 1 but low model confidence (0.36) — flagged for manual review rather than trusting automated grading
+bdf47b9f10c4,APTOS,0,0,0.9866660773691368,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.99) — routine rescreening interval
+7e77b61e1639,APTOS,0,0,0.9747064899441882,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.97) — routine rescreening interval
+IM001752,Messidor,4,3,0.5461278697136733,REFER,URGENT,"Predicted grade 3 (severe/proliferative DR) — sight-threatening, refer promptly"
+3cd9713c0ecb,APTOS,0,0,0.977127349851454,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.98) — routine rescreening interval
+IM003856,Messidor,0,0,0.9026073956001188,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.90) — routine rescreening interval
+12e3f5f2cb17,APTOS,1,2,0.8293150101532829,REFER,ROUTINE,Predicted grade 2 (moderate NPDR) — refer for ophthalmologist review
+06be1092a062,APTOS,0,0,0.932383306094942,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.93) — routine rescreening interval
+c98f623d08d1,APTOS,0,0,0.949203224311045,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.95) — routine rescreening interval
+IM000500,Messidor,1,0,0.9694016459926106,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.97) — routine rescreening interval
+28503940d10b,APTOS,0,0,0.9523657694767084,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.95) — routine rescreening interval
+1c0cf251b426,APTOS,1,1,0.6313070204174602,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 1 with high confidence (0.63) — routine rescreening interval
+20060407_44866_0200_PP,Messidor,0,0,0.5730273943366189,REFER,PRECAUTIONARY,Predicted grade 0 but low model confidence (0.57) — flagged for manual review rather than trusting automated grading
+IDRiD_397_train,IDRiD,2,0,0.5635252297984141,REFER,PRECAUTIONARY,Predicted grade 0 but low model confidence (0.56) — flagged for manual review rather than trusting automated grading
+359bab5d784b,APTOS,0,0,0.9786062051261852,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.98) — routine rescreening interval
+20051116_59150_0400_PP,Messidor,2,1,0.4883710605953586,REFER,PRECAUTIONARY,Predicted grade 1 but low model confidence (0.49) — flagged for manual review rather than trusting automated grading
+IDRiD_208_train,IDRiD,2,0,0.873278750459576,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.87) — routine rescreening interval
+20051214_57230_0100_PP,Messidor,2,2,0.615419480449116,REFER,ROUTINE,Predicted grade 2 (moderate NPDR) — refer for ophthalmologist review
+IM004811,Messidor,1,0,0.6223166684742316,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.62) — routine rescreening interval
+20060411_61478_0200_PP,Messidor,3,2,0.6866238808680389,REFER,ROUTINE,Predicted grade 2 (moderate NPDR) — refer for ophthalmologist review
+93a1b984de84,APTOS,0,0,0.9793534400464864,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.98) — routine rescreening interval
+13d71389563f,APTOS,2,2,0.5739148635828834,REFER,ROUTINE,Predicted grade 2 (moderate NPDR) — refer for ophthalmologist review
+18ce0cdc473d,APTOS,0,0,0.6867522359958667,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.69) — routine rescreening interval
+IDRiD_377_train,IDRiD,3,2,0.3675589198777649,REFER,ROUTINE,Predicted grade 2 (moderate NPDR) — refer for ophthalmologist review
+360832d84ce0,APTOS,0,0,0.9374433687615968,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.94) — routine rescreening interval
+IDRiD_081_test,IDRiD,2,2,0.5048459124894711,REFER,ROUTINE,Predicted grade 2 (moderate NPDR) — refer for ophthalmologist review
+IDRiD_095_test,IDRiD,0,0,0.5726405340270248,REFER,PRECAUTIONARY,Predicted grade 0 but low model confidence (0.57) — flagged for manual review rather than trusting automated grading
+IM003431,Messidor,2,0,0.7985487810291727,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.80) — routine rescreening interval
+20060523_48161_0100_PP,Messidor,0,0,0.8209258776662938,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.82) — routine rescreening interval
+2408799a09b2,APTOS,0,0,0.9535448143256064,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.95) — routine rescreening interval
+b21abe5d9722,APTOS,0,0,0.9347674847121752,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.93) — routine rescreening interval
+20051202_56028_0400_PP,Messidor,2,0,0.7485724733033907,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.75) — routine rescreening interval
+IM002938,Messidor,2,0,0.5988368239523252,REFER,PRECAUTIONARY,Predicted grade 0 but low model confidence (0.60) — flagged for manual review rather than trusting automated grading
+IM000122,Messidor,0,0,0.8640898316043807,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.86) — routine rescreening interval
+IDRiD_078_test,IDRiD,0,0,0.6045221190740198,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.60) — routine rescreening interval
+IM000161,Messidor,0,0,0.7480542758442272,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.75) — routine rescreening interval
+IM003595,Messidor,0,0,0.9465176169722724,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.95) — routine rescreening interval
+IM003214,Messidor,0,0,0.9507476680451146,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.95) — routine rescreening interval
+20060411_58891_0200_PP,Messidor,0,0,0.6258507781349374,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.63) — routine rescreening interval
+20051216_47514_0200_PP,Messidor,0,0,0.7449562561031616,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.74) — routine rescreening interval
+20051201_37390_0400_PP,Messidor,0,0,0.5513439745606084,REFER,PRECAUTIONARY,Predicted grade 0 but low model confidence (0.55) — flagged for manual review rather than trusting automated grading
+IDRiD_081_train,IDRiD,4,4,0.5020097690329274,REFER,URGENT,"Predicted grade 4 (severe/proliferative DR) — sight-threatening, refer promptly"
+20051130_54802_0400_PP,Messidor,0,0,0.8492397736084565,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.85) — routine rescreening interval
+IDRiD_202_train,IDRiD,0,0,0.9065500629834592,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.91) — routine rescreening interval
+a654b25124c3,APTOS,0,0,0.9600087730313768,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.96) — routine rescreening interval
+20051208_42546_0400_PP,Messidor,2,0,0.4609603943852736,REFER,PRECAUTIONARY,Predicted grade 0 but low model confidence (0.46) — flagged for manual review rather than trusting automated grading
+IDRiD_023_train,IDRiD,3,2,0.807300556209041,REFER,ROUTINE,Predicted grade 2 (moderate NPDR) — refer for ophthalmologist review
+20051205_35408_0400_PP,Messidor,2,0,0.4413491880586955,REFER,PRECAUTIONARY,Predicted grade 0 but low model confidence (0.44) — flagged for manual review rather than trusting automated grading
+20051216_45351_0200_PP,Messidor,2,2,0.3310656592373791,REFER,ROUTINE,Predicted grade 2 (moderate NPDR) — refer for ophthalmologist review
+6180920bc224,APTOS,0,0,0.9361145414950622,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.94) — routine rescreening interval
+5a93c0f783c4,APTOS,0,0,0.9593931079874478,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.96) — routine rescreening interval
+IDRiD_055_test,IDRiD,0,2,0.5357758346860297,REFER,ROUTINE,Predicted grade 2 (moderate NPDR) — refer for ophthalmologist review
+IM003323,Messidor,0,0,0.9438384523256304,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.94) — routine rescreening interval
+IDRiD_064_train,IDRiD,2,2,0.5828276510033293,REFER,ROUTINE,Predicted grade 2 (moderate NPDR) — refer for ophthalmologist review
+150f92b45349,APTOS,0,0,0.948113468183984,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.95) — routine rescreening interval
+IDRiD_264_train,IDRiD,0,0,0.845764043803235,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.85) — routine rescreening interval
+1dbdc32c17db,APTOS,2,2,0.8301566356484442,REFER,ROUTINE,Predicted grade 2 (moderate NPDR) — refer for ophthalmologist review
+20051214_51342_0100_PP,Messidor,0,0,0.6417094551591788,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.64) — routine rescreening interval
+IDRiD_005_train,IDRiD,4,2,0.3629660744291533,REFER,ROUTINE,Predicted grade 2 (moderate NPDR) — refer for ophthalmologist review
+20060410_44504_0200_PP,Messidor,0,0,0.8981803851457781,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.90) — routine rescreening interval
+2a7373eeb352,APTOS,0,0,0.9379296329884091,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.94) — routine rescreening interval
+20060522_45402_0100_PP,Messidor,1,0,0.5175779540291734,REFER,PRECAUTIONARY,Predicted grade 0 but low model confidence (0.52) — flagged for manual review rather than trusting automated grading
+IM001805,Messidor,1,0,0.934006024701655,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.93) — routine rescreening interval
+IDRiD_304_train,IDRiD,1,0,0.8632052397567919,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.86) — routine rescreening interval
+de18071c36e6,APTOS,0,0,0.9567875984356536,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.96) — routine rescreening interval
+462937ece243,APTOS,0,0,0.4838194501636278,REFER,PRECAUTIONARY,Predicted grade 0 but low model confidence (0.48) — flagged for manual review rather than trusting automated grading
+03e25101e8e8,APTOS,1,2,0.6751218552921776,REFER,ROUTINE,Predicted grade 2 (moderate NPDR) — refer for ophthalmologist review
+20051202_56050_0400_PP,Messidor,2,2,0.4474924208099695,REFER,ROUTINE,Predicted grade 2 (moderate NPDR) — refer for ophthalmologist review
+2cdcc910778d,APTOS,0,0,0.748585533043364,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.75) — routine rescreening interval
+b8e9a8f4617d,APTOS,0,0,0.9727825328816622,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.97) — routine rescreening interval
+034cb07a550f,APTOS,4,2,0.7496592404620906,REFER,ROUTINE,Predicted grade 2 (moderate NPDR) — refer for ophthalmologist review
+04579e31e4be,APTOS,0,0,0.98690012348338,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.99) — routine rescreening interval
+IDRiD_389_train,IDRiD,4,4,0.7560114702028444,REFER,URGENT,"Predicted grade 4 (severe/proliferative DR) — sight-threatening, refer promptly"
+20060411_62319_0200_PP,Messidor,2,0,0.5923907970399968,REFER,PRECAUTIONARY,Predicted grade 0 but low model confidence (0.59) — flagged for manual review rather than trusting automated grading
+aebe87a423c8,APTOS,0,0,0.6943631352576698,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.69) — routine rescreening interval
+810d3779abd9,APTOS,3,3,0.4930553799489574,REFER,URGENT,"Predicted grade 3 (severe/proliferative DR) — sight-threatening, refer promptly"
+IM000813,Messidor,0,0,0.8797509736906068,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.88) — routine rescreening interval
+20051020_56791_0100_PP,Messidor,0,0,0.7660544210135691,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.77) — routine rescreening interval
+1844a039b4ea,APTOS,2,2,0.8956938043540464,REFER,ROUTINE,Predicted grade 2 (moderate NPDR) — refer for ophthalmologist review
+b5b913358b32,APTOS,0,0,0.9801661319888209,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.98) — routine rescreening interval
+19b0e3c734f5,APTOS,0,0,0.9195023376696468,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.92) — routine rescreening interval
+20051020_64249_0100_PP,Messidor,0,0,0.8365472898629644,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.84) — routine rescreening interval
+20060412_57952_0200_PP,Messidor,0,2,0.4088085477964549,REFER,ROUTINE,Predicted grade 2 (moderate NPDR) — refer for ophthalmologist review
+5c85d22bd0de,APTOS,0,0,0.9155813042007525,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.92) — routine rescreening interval
+0db1d8dcf219,APTOS,0,0,0.9503177569427608,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.95) — routine rescreening interval
+20051130_60066_0400_PP,Messidor,0,0,0.7537742590076122,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.75) — routine rescreening interval
+20051020_63269_0100_PP,Messidor,0,0,0.9225020793229144,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.92) — routine rescreening interval
+6a905a7202d2,APTOS,0,0,0.9564025111709726,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.96) — routine rescreening interval
+9c893e16c055,APTOS,0,0,0.9835812032394264,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.98) — routine rescreening interval
+15f440753916,APTOS,3,3,0.5991207888268459,REFER,URGENT,"Predicted grade 3 (severe/proliferative DR) — sight-threatening, refer promptly"
+ffd97f8cd5aa,APTOS,0,0,0.970196815174748,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.97) — routine rescreening interval
+20051130_54077_0400_PP,Messidor,0,0,0.9168259955348672,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.92) — routine rescreening interval
+IM000668,Messidor,0,0,0.9092287104866767,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.91) — routine rescreening interval
+IDRiD_066_test,IDRiD,3,3,0.604375988079201,REFER,URGENT,"Predicted grade 3 (severe/proliferative DR) — sight-threatening, refer promptly"
+08c17a2d95b7,APTOS,2,4,0.4117473071421393,REFER,URGENT,"Predicted grade 4 (severe/proliferative DR) — sight-threatening, refer promptly"
+20051202_55582_0400_PP,Messidor,2,2,0.8742545169924484,REFER,ROUTINE,Predicted grade 2 (moderate NPDR) — refer for ophthalmologist review
+a987aa7aac37,APTOS,0,0,0.8949287137051198,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.89) — routine rescreening interval
+857230f64a2e,APTOS,4,4,0.8716863361345462,REFER,URGENT,"Predicted grade 4 (severe/proliferative DR) — sight-threatening, refer promptly"
+d5b4705ac2ee,APTOS,1,0,0.8586535829336244,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.86) — routine rescreening interval
+20060411_58808_0200_PP,Messidor,0,0,0.8239797695940079,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.82) — routine rescreening interval
+IDRiD_295_train,IDRiD,0,0,0.9661596087151112,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.97) — routine rescreening interval
+21037f5c7790,APTOS,0,0,0.9674084083297144,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.97) — routine rescreening interval
+3f6c627e2ff2,APTOS,0,0,0.9562165288815788,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.96) — routine rescreening interval
+20060411_59812_0200_PP,Messidor,2,2,0.503395451798464,REFER,ROUTINE,Predicted grade 2 (moderate NPDR) — refer for ophthalmologist review
+IDRiD_146_train,IDRiD,0,0,0.7607621028531221,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.76) — routine rescreening interval
+20060523_49875_0100_PP,Messidor,3,2,0.5440646877217747,REFER,ROUTINE,Predicted grade 2 (moderate NPDR) — refer for ophthalmologist review
+384db24ebbd7,APTOS,0,0,0.9291326944747282,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.93) — routine rescreening interval
+20060412_52038_0200_PP,Messidor,2,2,0.5040512193212092,REFER,ROUTINE,Predicted grade 2 (moderate NPDR) — refer for ophthalmologist review
+10f6ef37fe43,APTOS,0,0,0.7485974140240446,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.75) — routine rescreening interval
+0d744aed4d64,APTOS,0,0,0.9478118057194752,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.95) — routine rescreening interval
+75369248dba0,APTOS,0,0,0.9854621916367656,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.99) — routine rescreening interval
+IM002732,Messidor,0,0,0.5380407658345685,REFER,PRECAUTIONARY,Predicted grade 0 but low model confidence (0.54) — flagged for manual review rather than trusting automated grading
+144b01e7b993,APTOS,2,2,0.7116523357618787,REFER,ROUTINE,Predicted grade 2 (moderate NPDR) — refer for ophthalmologist review
+IDRiD_119_train,IDRiD,4,3,0.5200223483084976,REFER,URGENT,"Predicted grade 3 (severe/proliferative DR) — sight-threatening, refer promptly"
+98e44127872f,APTOS,0,0,0.9679457184411594,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.97) — routine rescreening interval
+178412895d5e,APTOS,0,0,0.9261719175462524,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.93) — routine rescreening interval
+20060407_39546_0200_PP,Messidor,0,0,0.4812300566193644,REFER,PRECAUTIONARY,Predicted grade 0 but low model confidence (0.48) — flagged for manual review rather than trusting automated grading
+20060412_59242_0200_PP,Messidor,2,0,0.6671430850010709,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.67) — routine rescreening interval
+20060407_44400_0200_PP,Messidor,0,0,0.5644364128420436,REFER,PRECAUTIONARY,Predicted grade 0 but low model confidence (0.56) — flagged for manual review rather than trusting automated grading
+20060410_47042_0200_PP,Messidor,2,0,0.4399865625375049,REFER,PRECAUTIONARY,Predicted grade 0 but low model confidence (0.44) — flagged for manual review rather than trusting automated grading
+IM003359,Messidor,4,2,0.4837178085901578,REFER,ROUTINE,Predicted grade 2 (moderate NPDR) — refer for ophthalmologist review
+IM002269,Messidor,3,3,0.6694024749512921,REFER,URGENT,"Predicted grade 3 (severe/proliferative DR) — sight-threatening, refer promptly"
+IM004645,Messidor,0,0,0.8340440147582431,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.83) — routine rescreening interval
+IDRiD_063_test,IDRiD,1,0,0.6956097163499154,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.70) — routine rescreening interval
+80e6e425f966,APTOS,0,0,0.9745367972840584,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.97) — routine rescreening interval
+20060522_45853_0100_PP,Messidor,0,0,0.7966981788413345,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.80) — routine rescreening interval
+20060523_45787_0100_PP,Messidor,2,2,0.4152997787930131,REFER,ROUTINE,Predicted grade 2 (moderate NPDR) — refer for ophthalmologist review
+20060407_43258_0200_PP,Messidor,0,0,0.772744691032758,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.77) — routine rescreening interval
+20060522_45777_0100_PP,Messidor,0,0,0.7207833731282107,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.72) — routine rescreening interval
+cb2f3c5d71a7,APTOS,1,2,0.5433121253392702,REFER,ROUTINE,Predicted grade 2 (moderate NPDR) — refer for ophthalmologist review
+IM000859,Messidor,0,0,0.9169870680657722,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.92) — routine rescreening interval
+IDRiD_012_test,IDRiD,2,0,0.4042961431073752,REFER,PRECAUTIONARY,Predicted grade 0 but low model confidence (0.40) — flagged for manual review rather than trusting automated grading
+bcc762618e7d,APTOS,2,2,0.5046928576051883,REFER,ROUTINE,Predicted grade 2 (moderate NPDR) — refer for ophthalmologist review
+IM000924,Messidor,0,0,0.7981026180472596,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.80) — routine rescreening interval
+20051130_59793_0400_PP,Messidor,0,0,0.4635123057189855,REFER,PRECAUTIONARY,Predicted grade 0 but low model confidence (0.46) — flagged for manual review rather than trusting automated grading
+IDRiD_103_test,IDRiD,0,0,0.5958782161877685,REFER,PRECAUTIONARY,Predicted grade 0 but low model confidence (0.60) — flagged for manual review rather than trusting automated grading
+20060407_42290_0200_PP,Messidor,0,0,0.8737079243436745,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.87) — routine rescreening interval
+97fdee242fea,APTOS,0,0,0.9335470354693476,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.93) — routine rescreening interval
+IDRiD_131_train,IDRiD,2,2,0.560688917467078,REFER,ROUTINE,Predicted grade 2 (moderate NPDR) — refer for ophthalmologist review
+20051021_40018_0100_PP,Messidor,1,1,0.4952967659924447,REFER,PRECAUTIONARY,Predicted grade 1 but low model confidence (0.50) — flagged for manual review rather than trusting automated grading
+IM000167,Messidor,0,0,0.9357711724252512,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.94) — routine rescreening interval
+c334f8688b77,APTOS,0,0,0.9910209737641272,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.99) — routine rescreening interval
+IM004668,Messidor,0,0,0.7880670275889433,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.79) — routine rescreening interval
+20051130_59464_0400_PP,Messidor,0,0,0.5268333231040839,REFER,PRECAUTIONARY,Predicted grade 0 but low model confidence (0.53) — flagged for manual review rather than trusting automated grading
+20060412_57974_0200_PP,Messidor,0,1,0.6168318269472135,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 1 with high confidence (0.62) — routine rescreening interval
+IM002822,Messidor,0,0,0.8926094840889597,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.89) — routine rescreening interval
+acf976efd7ce,APTOS,0,0,0.9791869547715488,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.98) — routine rescreening interval
+215d2b7c3fde,APTOS,0,0,0.9134669007098905,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.91) — routine rescreening interval
+c6229222bf22,APTOS,0,0,0.9057742960875352,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.91) — routine rescreening interval
+20060411_59190_0200_PP,Messidor,2,2,0.6357223681864907,REFER,ROUTINE,Predicted grade 2 (moderate NPDR) — refer for ophthalmologist review
+da2bdf4236ac,APTOS,0,0,0.7752331254217703,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.78) — routine rescreening interval
+IM003519,Messidor,0,0,0.9392268604619924,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.94) — routine rescreening interval
+20060412_59658_0200_PP,Messidor,1,0,0.7509182234695475,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.75) — routine rescreening interval
+18f1f979d30d,APTOS,2,2,0.6628340841408266,REFER,ROUTINE,Predicted grade 2 (moderate NPDR) — refer for ophthalmologist review
+996f9bba4ef0,APTOS,0,0,0.9582653501917217,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.96) — routine rescreening interval
+20060410_41098_0200_PP,Messidor,0,0,0.5460990499555403,REFER,PRECAUTIONARY,Predicted grade 0 but low model confidence (0.55) — flagged for manual review rather than trusting automated grading
+0e43c8298fc0,APTOS,0,0,0.9531700327550452,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.95) — routine rescreening interval
+7fc3a8bb40de,APTOS,0,0,0.9670989580571632,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.97) — routine rescreening interval
+33b91def2035,APTOS,0,0,0.9720566158088868,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.97) — routine rescreening interval
+20060410_41209_0200_PP,Messidor,0,1,0.3889570455143337,REFER,PRECAUTIONARY,Predicted grade 1 but low model confidence (0.39) — flagged for manual review rather than trusting automated grading
+IM002998,Messidor,0,0,0.9501185009548324,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.95) — routine rescreening interval
+IDRiD_255_train,IDRiD,0,0,0.9645202760571248,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.96) — routine rescreening interval
+20060412_59100_0200_PP,Messidor,1,3,0.5611970709145023,REFER,URGENT,"Predicted grade 3 (severe/proliferative DR) — sight-threatening, refer promptly"
+IDRiD_190_train,IDRiD,0,0,0.8305076041662354,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.83) — routine rescreening interval
+d6dbb0820ea5,APTOS,0,0,0.9780410551079772,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.98) — routine rescreening interval
+20051130_60691_0400_PP,Messidor,0,0,0.8335200802330387,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.83) — routine rescreening interval
+IDRiD_098_test,IDRiD,0,0,0.6040169105619894,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.60) — routine rescreening interval
+20060407_45949_0200_PP,Messidor,0,0,0.6543133429585118,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.65) — routine rescreening interval
+IM004154,Messidor,0,0,0.850022339811682,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.85) — routine rescreening interval
+3e1f8fecb06f,APTOS,2,2,0.7552028040403815,REFER,ROUTINE,Predicted grade 2 (moderate NPDR) — refer for ophthalmologist review
+a0e635689259,APTOS,0,0,0.914626852950095,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.91) — routine rescreening interval
+b2b7ccd34cbd,APTOS,0,0,0.9733016902509068,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.97) — routine rescreening interval
+1dfe599d12a9,APTOS,0,0,0.9589183104039064,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.96) — routine rescreening interval
+a07d571bf7ba,APTOS,0,0,0.9683863015938374,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.97) — routine rescreening interval
+20051214_41055_0100_PP,Messidor,0,0,0.7576658625019494,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.76) — routine rescreening interval
+aec51513cf45,APTOS,0,0,0.9770109310767842,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.98) — routine rescreening interval
+568455854a11,APTOS,0,0,0.940326107595162,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.94) — routine rescreening interval
+20051020_43906_0100_PP,Messidor,2,0,0.621406149230819,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.62) — routine rescreening interval
+IM004621,Messidor,0,0,0.8972493533151402,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.90) — routine rescreening interval
+0790515cf5af,APTOS,0,0,0.643605051062597,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.64) — routine rescreening interval
+IM001751,Messidor,4,4,0.3495381650347962,REFER,URGENT,"Predicted grade 4 (severe/proliferative DR) — sight-threatening, refer promptly"
+525d0dd8dc45,APTOS,0,0,0.9471002591620096,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.95) — routine rescreening interval
+18b99159a14f,APTOS,0,0,0.9840708455161102,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.98) — routine rescreening interval
+194814669fee,APTOS,1,1,0.3887101285147387,REFER,PRECAUTIONARY,Predicted grade 1 but low model confidence (0.39) — flagged for manual review rather than trusting automated grading
+20051202_48393_0400_PP,Messidor,1,0,0.8856724613048008,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.89) — routine rescreening interval
+IDRiD_076_test,IDRiD,2,0,0.7093872522497613,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.71) — routine rescreening interval
+20051201_38081_0400_PP,Messidor,0,0,0.7509383230035376,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.75) — routine rescreening interval
+20060529_56442_0100_PP,Messidor,0,0,0.7416345393084449,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.74) — routine rescreening interval
+835b9f6e12ba,APTOS,0,0,0.955288227357407,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.96) — routine rescreening interval
+IDRiD_115_train,IDRiD,3,4,0.6899030306814915,REFER,URGENT,"Predicted grade 4 (severe/proliferative DR) — sight-threatening, refer promptly"
+eadc57064154,APTOS,4,4,0.9339299531870056,REFER,URGENT,"Predicted grade 4 (severe/proliferative DR) — sight-threatening, refer promptly"
+IM002134,Messidor,0,0,0.9189051237317984,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.92) — routine rescreening interval
+cd8da43e3069,APTOS,0,0,0.7158620418583935,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.72) — routine rescreening interval
+8185ce1cdcef,APTOS,0,0,0.9769067823823678,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.98) — routine rescreening interval
+IM002901,Messidor,1,0,0.9373798088220332,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.94) — routine rescreening interval
+d881c04f01fe,APTOS,0,0,0.5053893854017216,REFER,PRECAUTIONARY,Predicted grade 0 but low model confidence (0.51) — flagged for manual review rather than trusting automated grading
+20060410_47186_0200_PP,Messidor,0,1,0.4215711150643128,REFER,PRECAUTIONARY,Predicted grade 1 but low model confidence (0.42) — flagged for manual review rather than trusting automated grading
+IM000696,Messidor,0,0,0.7510260528073812,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.75) — routine rescreening interval
+IM002649,Messidor,0,0,0.6825159357886728,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.68) — routine rescreening interval
+IDRiD_216_train,IDRiD,2,0,0.8036477589184605,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.80) — routine rescreening interval
+IDRiD_035_train,IDRiD,3,4,0.534635723237169,REFER,URGENT,"Predicted grade 4 (severe/proliferative DR) — sight-threatening, refer promptly"
+20060412_59636_0200_PP,Messidor,1,0,0.4609234363507837,REFER,PRECAUTIONARY,Predicted grade 0 but low model confidence (0.46) — flagged for manual review rather than trusting automated grading
+f9aa35187bf3,APTOS,2,0,0.9628386543270588,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.96) — routine rescreening interval
+2d552318eb07,APTOS,2,4,0.3280877707812257,REFER,URGENT,"Predicted grade 4 (severe/proliferative DR) — sight-threatening, refer promptly"
+9a1029536d78,APTOS,0,0,0.9790596000135444,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.98) — routine rescreening interval
+IM000080,Messidor,0,0,0.52458417511714,REFER,PRECAUTIONARY,Predicted grade 0 but low model confidence (0.52) — flagged for manual review rather than trusting automated grading
+91e82fe4e434,APTOS,0,0,0.8679923811167786,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.87) — routine rescreening interval
+20060407_46257_0200_PP,Messidor,0,0,0.5249981581887213,REFER,PRECAUTIONARY,Predicted grade 0 but low model confidence (0.52) — flagged for manual review rather than trusting automated grading
+IM002019,Messidor,0,0,0.9654813468731138,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.97) — routine rescreening interval
+4731e708ede3,APTOS,0,0,0.9581811273956212,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.96) — routine rescreening interval
+0bf37ca3156a,APTOS,4,2,0.6089155059115554,REFER,ROUTINE,Predicted grade 2 (moderate NPDR) — refer for ophthalmologist review
+20051205_58091_0400_PP,Messidor,0,1,0.4765095373105558,REFER,PRECAUTIONARY,Predicted grade 1 but low model confidence (0.48) — flagged for manual review rather than trusting automated grading
+IM004392,Messidor,0,0,0.9553850820469278,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.96) — routine rescreening interval
+IM001797,Messidor,0,0,0.772350389101656,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.77) — routine rescreening interval
+ec6f1797a25a,APTOS,0,0,0.9864877695936916,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.99) — routine rescreening interval
+be197b663520,APTOS,0,0,0.9508874209066618,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.95) — routine rescreening interval
+IDRiD_173_train,IDRiD,0,2,0.5635994625649978,REFER,ROUTINE,Predicted grade 2 (moderate NPDR) — refer for ophthalmologist review
+20051130_59029_0400_PP,Messidor,0,0,0.8483364110998673,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.85) — routine rescreening interval
+IDRiD_139_train,IDRiD,0,0,0.8998766244275023,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.90) — routine rescreening interval
+20060411_59919_0200_PP,Messidor,2,2,0.6967957379075789,REFER,ROUTINE,Predicted grade 2 (moderate NPDR) — refer for ophthalmologist review
+IDRiD_087_train,IDRiD,2,2,0.6280034293597052,REFER,ROUTINE,Predicted grade 2 (moderate NPDR) — refer for ophthalmologist review
+IM000654,Messidor,1,0,0.877022603257009,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.88) — routine rescreening interval
+0da09e3ce8f1,APTOS,2,2,0.7997498608903566,REFER,ROUTINE,Predicted grade 2 (moderate NPDR) — refer for ophthalmologist review
+a5c9a8c726b2,APTOS,4,2,0.5292005246803557,REFER,ROUTINE,Predicted grade 2 (moderate NPDR) — refer for ophthalmologist review
+780be525036d,APTOS,0,0,0.9511180627837322,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.95) — routine rescreening interval
+0709652336e2,APTOS,0,0,0.9293647588191116,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.93) — routine rescreening interval
+e4ae1ee6aada,APTOS,0,0,0.9870827091774392,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.99) — routine rescreening interval
+20051205_58409_0400_PP,Messidor,0,2,0.4253589621213486,REFER,ROUTINE,Predicted grade 2 (moderate NPDR) — refer for ophthalmologist review
+20060529_57156_0100_PP,Messidor,2,2,0.6500191103916786,REFER,ROUTINE,Predicted grade 2 (moderate NPDR) — refer for ophthalmologist review
+IM004440,Messidor,0,0,0.9658284909685242,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.97) — routine rescreening interval
+IM002615,Messidor,0,0,0.8160017255122461,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.82) — routine rescreening interval
+08f8838d69bb,APTOS,0,0,0.9808512990099026,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.98) — routine rescreening interval
+09eeafa9656a,APTOS,2,2,0.8002295713434819,REFER,ROUTINE,Predicted grade 2 (moderate NPDR) — refer for ophthalmologist review
+20051214_40994_0100_PP,Messidor,0,0,0.8737979719712256,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.87) — routine rescreening interval
+IM001089,Messidor,0,0,0.7277490918872284,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.73) — routine rescreening interval
+20060410_43868_0200_PP,Messidor,0,0,0.8303433324864409,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.83) — routine rescreening interval
+20060412_52194_0200_PP,Messidor,2,0,0.7111908217126136,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.71) — routine rescreening interval
+0fffa73e2402,APTOS,2,2,0.4064239769430324,REFER,ROUTINE,Predicted grade 2 (moderate NPDR) — refer for ophthalmologist review
+20051021_40248_0100_PP,Messidor,2,1,0.4297635051077386,REFER,PRECAUTIONARY,Predicted grade 1 but low model confidence (0.43) — flagged for manual review rather than trusting automated grading
+da9fe02dead3,APTOS,0,0,0.9641808318233742,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.96) — routine rescreening interval
+24b943fe725e,APTOS,1,2,0.3889691893617033,REFER,ROUTINE,Predicted grade 2 (moderate NPDR) — refer for ophthalmologist review
+1fb455685328,APTOS,0,0,0.988201859696846,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.99) — routine rescreening interval
+IM001372,Messidor,3,3,0.6308847453444898,REFER,URGENT,"Predicted grade 3 (severe/proliferative DR) — sight-threatening, refer promptly"
+d26bc6e1230d,APTOS,0,0,0.977500523150683,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.98) — routine rescreening interval
+20051205_57757_0400_PP,Messidor,0,0,0.8007583801504722,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.80) — routine rescreening interval
+20060523_49010_0100_PP,Messidor,2,1,0.6489727850050713,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 1 with high confidence (0.65) — routine rescreening interval
+3bf3085ac167,APTOS,0,0,0.9898368382797912,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.99) — routine rescreening interval
+000c1434d8d7,APTOS,2,2,0.5408488468910229,REFER,ROUTINE,Predicted grade 2 (moderate NPDR) — refer for ophthalmologist review
+IM001110,Messidor,1,0,0.7881747235540945,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.79) — routine rescreening interval
+20060523_50234_0100_PP,Messidor,2,2,0.662534976070061,REFER,ROUTINE,Predicted grade 2 (moderate NPDR) — refer for ophthalmologist review
+6c30dd481717,APTOS,0,0,0.9522364539806304,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.95) — routine rescreening interval
+3b0190bbe615,APTOS,0,0,0.9736828860381508,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.97) — routine rescreening interval
+IDRiD_332_train,IDRiD,2,2,0.7067424918192051,REFER,ROUTINE,Predicted grade 2 (moderate NPDR) — refer for ophthalmologist review
+20051216_44939_0200_PP,Messidor,2,2,0.5020720141155628,REFER,ROUTINE,Predicted grade 2 (moderate NPDR) — refer for ophthalmologist review
+20060412_59355_0200_PP,Messidor,0,0,0.5859224066329596,REFER,PRECAUTIONARY,Predicted grade 0 but low model confidence (0.59) — flagged for manual review rather than trusting automated grading
+IM000406,Messidor,1,0,0.9047857784367908,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.90) — routine rescreening interval
+20060523_48990_0100_PP,Messidor,2,2,0.6169812778781237,REFER,ROUTINE,Predicted grade 2 (moderate NPDR) — refer for ophthalmologist review
+IM002201,Messidor,0,0,0.9425091469507044,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.94) — routine rescreening interval
+7ee6de71c140,APTOS,0,0,0.957437023416491,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.96) — routine rescreening interval
+20060407_45247_0200_PP,Messidor,0,0,0.9191962592224578,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.92) — routine rescreening interval
+IM003207,Messidor,0,0,0.9335297271753196,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.93) — routine rescreening interval
+20060523_50556_0100_PP,Messidor,3,3,0.7020685472230005,REFER,URGENT,"Predicted grade 3 (severe/proliferative DR) — sight-threatening, refer promptly"
+20051021_59459_0100_PP,Messidor,4,2,0.4236546871819548,REFER,ROUTINE,Predicted grade 2 (moderate NPDR) — refer for ophthalmologist review
+65f69234c8a7,APTOS,0,0,0.9842538334665184,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.98) — routine rescreening interval
+f3b27ac2d371,APTOS,0,0,0.969457213813568,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.97) — routine rescreening interval
+17d7d6b092f4,APTOS,0,0,0.950551690500439,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.95) — routine rescreening interval
+50916d67bb51,APTOS,0,0,0.9457533868822616,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.95) — routine rescreening interval
+IDRiD_044_train,IDRiD,2,2,0.8239629116969378,REFER,ROUTINE,Predicted grade 2 (moderate NPDR) — refer for ophthalmologist review
+4dd4a4bf2421,APTOS,0,0,0.972941361106359,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.97) — routine rescreening interval
+20051110_34071_0400_PP,Messidor,1,0,0.8207910369909225,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.82) — routine rescreening interval
+IM003747,Messidor,0,0,0.9687610681607464,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.97) — routine rescreening interval
+2821998fc002,APTOS,0,0,0.9473300989998156,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.95) — routine rescreening interval
+20060523_45369_0100_PP,Messidor,2,2,0.6234116266076576,REFER,ROUTINE,Predicted grade 2 (moderate NPDR) — refer for ophthalmologist review
+20051020_62385_0100_PP,Messidor,3,2,0.6787354379152137,REFER,ROUTINE,Predicted grade 2 (moderate NPDR) — refer for ophthalmologist review
+20051205_58373_0400_PP,Messidor,0,0,0.6341666904674612,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.63) — routine rescreening interval
+IM001880,Messidor,1,0,0.930909481076135,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.93) — routine rescreening interval
+20051216_47668_0200_PP,Messidor,2,2,0.8013303787852745,REFER,ROUTINE,Predicted grade 2 (moderate NPDR) — refer for ophthalmologist review
+20051205_59300_0400_PP,Messidor,1,0,0.7896406796720978,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.79) — routine rescreening interval
+58c12863f33d,APTOS,0,0,0.9529474915174702,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.95) — routine rescreening interval
+190a309f2cc5,APTOS,0,0,0.9768378508675312,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.98) — routine rescreening interval
+a0b7ad98df57,APTOS,0,0,0.9781087950207464,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.98) — routine rescreening interval
+f451eee2b66b,APTOS,0,0,0.9718037006413756,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.97) — routine rescreening interval
+20051020_63045_0100_PP,Messidor,1,1,0.395607218227096,REFER,PRECAUTIONARY,Predicted grade 1 but low model confidence (0.40) — flagged for manual review rather than trusting automated grading
+IM004306,Messidor,0,0,0.7715859719449704,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.77) — routine rescreening interval
+IDRiD_235_train,IDRiD,0,0,0.9372146678375356,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.94) — routine rescreening interval
+IDRiD_356_train,IDRiD,3,3,0.4934056252607859,REFER,URGENT,"Predicted grade 3 (severe/proliferative DR) — sight-threatening, refer promptly"
+IDRiD_282_train,IDRiD,2,1,0.4262443523883501,REFER,PRECAUTIONARY,Predicted grade 1 but low model confidence (0.43) — flagged for manual review rather than trusting automated grading
+20051110_38111_0400_PP,Messidor,0,0,0.8513353107632595,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.85) — routine rescreening interval
+1b495ac025b7,APTOS,3,4,0.4770356681148383,REFER,URGENT,"Predicted grade 4 (severe/proliferative DR) — sight-threatening, refer promptly"
+060e00d1e2ab,APTOS,0,0,0.9603298954542778,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.96) — routine rescreening interval
+20051110_38194_0400_PP,Messidor,1,0,0.6297160115343816,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.63) — routine rescreening interval
+84b79243e430,APTOS,0,0,0.9814797423687778,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.98) — routine rescreening interval
+IM004241,Messidor,0,0,0.8033845557361512,NO_REFERRAL,ROUTINE_RESCREEN,Predicted grade 0 with high confidence (0.80) — routine rescreening interval
