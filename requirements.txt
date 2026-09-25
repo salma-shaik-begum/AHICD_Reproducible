@@ -1,0 +1,56 @@
+# AHICF — Reproducibility Environment
+
+#
+
+# These requirements define the supported execution environment reconstructed
+
+# from the source-code imports and original development notebook.
+
+#
+
+# IMPORTANT:
+
+# These are minimum/version-range constraints, NOT an exact pip freeze of
+
+# the environment used to generate the manuscript results. Exact numerical
+
+# reproduction may require the original historical package versions.
+
+# Core scientific Python stack
+
+numpy>=1.26,<2.0
+pandas>=2.0
+scipy>=1.11
+scikit-learn>=1.3
+scikit-image>=0.22
+opencv-python-headless>=4.8
+matplotlib>=3.8
+joblib>=1.3
+tqdm>=4.66
+
+# Deep learning
+
+# CPU-compatible installation is used by the Docker workflow.
+
+torch>=2.1
+torchvision>=0.16
+timm>=0.9.12
+
+# Ensemble learning and statistical analysis
+
+xgboost>=2.0
+statsmodels>=0.14
+
+# Explainable AI
+
+shap>=0.44
+
+# RETFound / pretrained model access
+
+huggingface_hub>=0.20
+
+# Multi-objective optimization
+
+# Required if Stage 3 imports and uses pymoo.
+
+pymoo>=0.6

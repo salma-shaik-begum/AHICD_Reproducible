@@ -1,0 +1,39 @@
+cff-version: 1.2.0
+message: "If you use this software or reproducibility package, please cite it as follows."
+
+title: "AHICF — A Generalizable Hybrid Deep Learning Framework for Automated Diabetic Retinopathy Grading and Clinical Decision Support"
+
+type: software
+
+authors:
+  - family-names: "Shaik"
+    given-names: "Salma Begum"
+
+year: 2026
+
+version: "1.0.0"
+
+repository-code: "https://github.com/salma-shaik-begum/AHICD_Reproducible"
+
+license: "MIT"
+
+keywords:
+  - "diabetic retinopathy"
+  - "deep learning"
+  - "medical image analysis"
+  - "clinical decision support"
+  - "computer vision"
+  - "vision transformer"
+  - "domain adaptation"
+  - "explainable AI"
+  - "NSGA-II"
+
+abstract: >
+  Reproducibility package for AHICF, a generalizable hybrid deep learning
+  framework for automated diabetic retinopathy grading and clinical decision
+  support. The framework integrates deep visual features, transformer-based
+  representations, handcrafted clinical features, multi-objective feature
+  optimization, ensemble learning, explainability, cross-dataset validation,
+  domain adaptation, calibration, and statistical validation.
+
+url: "https://github.com/salma-shaik-begum/AHICD_Reproducible"
