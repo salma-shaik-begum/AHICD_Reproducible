@@ -1,6 +1,6 @@
 # AHICF — A Generalizable Hybrid Deep Learning Framework for Automated Diabetic Retinopathy Grading and Clinical Decision Support
 
-**AHICF (Adaptive Hybrid Intelligent Clinical Framework)** is a reproducibility package accompanying the manuscript **“A Generalizable Hybrid Deep Learning Framework for Automated Diabetic Retinopathy Grading and Clinical Decision Support”**, currently under journal review.
+AHICF (Adaptive Hybrid Intelligent Clinical Framework) is a reproducibility package accompanying the manuscript **“A Generalizable Hybrid Deep Learning Framework for Automated Diabetic Retinopathy Grading and Clinical Decision Support”**, currently under journal review.
 
 This repository contains the source code, precomputed outputs, figures, tables, CSV manifests, JSON result summaries, and environment definitions required to inspect and reproduce the reported analyses.
 
@@ -8,7 +8,7 @@ This repository contains the source code, precomputed outputs, figures, tables, 
 
 ---
 
-## 1. Overview
+# 1. Overview
 
 Diabetic retinopathy (DR) is a major cause of preventable vision loss worldwide. Automated DR grading systems can experience reduced generalization across heterogeneous clinical datasets because of domain shift, imaging variability, and class imbalance.
 
@@ -17,7 +17,7 @@ AHICF is a hybrid deep learning framework designed for automated DR grading and 
 * CNN-based retinal feature extraction
 * Vision Transformer (ViT) representations
 * Clinical and handcrafted image features
-* Adaptive multi-objective feature optimization using **NSGA-II**
+* Adaptive multi-objective feature optimization using NSGA-II
 * Confidence-weighted ensemble classification
 * Supervised domain adaptation using limited target-domain samples
 * Explainable AI using Grad-CAM and SHAP
@@ -27,22 +27,23 @@ AHICF is a hybrid deep learning framework designed for automated DR grading and 
 
 The framework is evaluated using three publicly available retinal image datasets:
 
-* **APTOS 2019 Blindness Detection**
-* **IDRiD**
-* **Messidor**
+* APTOS 2019 Blindness Detection
+* IDRiD
+* Messidor
 
 The evaluation includes in-distribution testing, cross-dataset evaluation, leave-one-dataset-out validation, domain adaptation, ablation analysis, statistical validation, image-quality assessment, calibration, and class-balance analysis.
 
 ---
 
-## 2. Repository Contents
+# 2. Repository Contents
 
 ```text
 AHICD_Reproducible/
 │
-├── src/                    Pipeline source code (Stages 0–9 + auxiliary analyses)
+├── src/                    Pipeline source code (Stages 0–8 + auxiliary analyses)
 │
 ├── notebooks/              Original Colab development notebook (provenance only)
+│   └── AHICF_Reproducibility_Notebook.ipynb
 │
 ├── csv/                    Manifests and per-stage tabular outputs
 │
@@ -51,21 +52,15 @@ AHICD_Reproducible/
 ├── results/                Per-stage JSON/NPZ result summaries and metrics
 │
 ├── requirements.txt        Python dependencies
-│
 ├── Dockerfile              CPU-oriented container environment
-│
 ├── .dockerignore           Docker build exclusions
-│
 ├── .gitignore              Git exclusions
-│
 ├── LICENSE                 Source-code license
-│
 ├── CITATION.cff            Citation metadata
-│
 └── README.md               This file
 ```
 
-The `csv/`, `figures/`, and `results/` directories contain **precomputed outputs generated during the manuscript analysis**. These files allow users to inspect the reported results without rerunning the complete computational pipeline.
+The `csv/`, `figures/`, and `results/` directories contain precomputed outputs generated during the manuscript analysis. These files allow users to inspect the reported results without rerunning the complete computational pipeline.
 
 The `src/` directory contains the corresponding source code required to regenerate the analyses.
 
@@ -83,23 +78,23 @@ src/main.py
 
 The pipeline is organized into independently checkpointed stages. Each stage reads its required inputs from disk and writes outputs that can be consumed by subsequent stages.
 
-| Stage        | Description                                                                                           | Main pipeline |
-| ------------ | ----------------------------------------------------------------------------------------------------- | ------------- |
-| **0**        | Multi-dataset collection and collision-safe manifest construction                                     | Yes           |
-| **1**        | Intelligent image enhancement                                                                         | Yes           |
-| **2**        | Adaptive hybrid feature learning using CNN + ViT + handcrafted features                               | Yes           |
-| **2b**       | Optional RETFound retina-foundation-model feature branch                                              | Manual        |
-| **3**        | Adaptive multi-objective feature optimization using NSGA-II                                           | Yes           |
-| **4**        | Adaptive intelligent clinical decision engine using a 5-model ensemble                                | Yes           |
-| **5**        | Explainable AI using Grad-CAM and SHAP                                                                | Yes           |
-| **6**        | Clinical decision support and DR referral logic                                                       | Yes           |
-| **6b**       | Auxiliary DME risk classifier and confound-isolated referral analysis                                 | Auxiliary     |
-| **7**        | Cross-dataset validation, leave-one-dataset-out evaluation, k-fold CV, and domain-adaptation analysis | Yes           |
-| **7d**       | Causal class-balance analysis                                                                         | Manual        |
-| **8**        | Statistical validation, bootstrap confidence intervals, and significance testing                      | Yes           |
-| **9**        | Benchmark comparison against published baselines                                                      | Manual        |
-| **cal**      | Model calibration, including ECE and reliability analysis                                             | Auxiliary     |
-| **ablation** | Feature-source contribution and ablation analysis                                                     | Auxiliary     |
+| Stage    | Description                                                                                           | Main pipeline |
+| -------- | ----------------------------------------------------------------------------------------------------- | ------------- |
+| 0        | Multi-dataset collection and collision-safe manifest construction                                     | Yes           |
+| 1        | Intelligent image enhancement                                                                         | Yes           |
+| 2        | Adaptive hybrid feature learning using CNN + ViT + handcrafted features                               | Yes           |
+| 2b       | Optional RETFound retina-foundation-model feature branch                                              | Manual        |
+| 3        | Adaptive multi-objective feature optimization using NSGA-II                                           | Yes           |
+| 4        | Adaptive intelligent clinical decision engine using a 5-model ensemble                                | Yes           |
+| 5        | Explainable AI using Grad-CAM and SHAP                                                                | Yes           |
+| 6        | Clinical decision support and DR referral logic                                                       | Yes           |
+| 6b       | Auxiliary DME risk classifier and confound-isolated referral analysis                                 | Auxiliary     |
+| 7        | Cross-dataset validation, leave-one-dataset-out evaluation, k-fold CV, and domain-adaptation analysis | Yes           |
+| 7d       | Causal class-balance analysis                                                                         | Manual        |
+| 8        | Statistical validation, bootstrap confidence intervals, and significance testing                      | Yes           |
+| 9        | Benchmark comparison against published baselines                                                      | Manual        |
+| cal      | Model calibration, including ECE and reliability analysis                                             | Auxiliary     |
+| ablation | Feature-source contribution and ablation analysis                                                     | Auxiliary     |
 
 Additional standalone analyses are available in `src/` but are not called automatically by `main.py`:
 
@@ -155,17 +150,20 @@ The exact output locations are controlled through the project configuration.
 
 Docker provides a reproducible CPU-oriented environment.
 
-Build the image:
+### Build the image
+
+From the repository root:
 
 ```bash
 docker build -t ahicf:latest .
 ```
 
-Run the core pipeline:
+### Run the core pipeline
 
 ```bash
 docker run --rm -it \
   -e AHICF_BASE_DIR=/app/data \
+  -e AHICF_DATASET_DIR=/app/data/Dataset \
   -v "$(pwd)/Dataset:/app/data/Dataset" \
   -v "$(pwd)/outputs:/app/data/AHICF_Project" \
   ahicf:latest --stages 0 1 2 3 4 5 6 7 8
@@ -201,7 +199,7 @@ source venv/bin/activate
 
 ### Windows
 
-```powershell
+```text
 venv\Scripts\activate
 ```
 
@@ -219,13 +217,13 @@ cd src
 python main.py --stages 0 1 2 3 4 5 6 7 8
 ```
 
-The development workflow was tested with Python **3.10–3.12**.
+The development workflow was tested with Python 3.10–3.12.
 
 ---
 
 # 6. Dataset Availability and Organization
 
-The raw retinal image datasets used in the study are **not redistributed in this repository**. They must be obtained separately from their original sources and placed under a local `Dataset/` directory.
+The raw retinal image datasets used in the study are not redistributed in this repository. They must be obtained separately from their original sources and placed under a local `Dataset/` directory.
 
 The expected directory organization is:
 
@@ -246,15 +244,15 @@ Dataset/
     └── IMAGES/
 ```
 
-### APTOS 2019 Blindness Detection
+## APTOS 2019 Blindness Detection
 
 The APTOS dataset was obtained from the Kaggle APTOS 2019 Blindness Detection competition.
 
-### IDRiD
+## IDRiD
 
-The **Indian Diabetic Retinopathy Image Dataset (IDRiD)** is distributed through IEEE DataPort.
+The Indian Diabetic Retinopathy Image Dataset (IDRiD) is distributed through IEEE DataPort.
 
-### Messidor
+## Messidor
 
 The Messidor dataset is distributed through the Messidor/Messidor-2 consortium and associated research-access mechanisms.
 
@@ -290,12 +288,14 @@ AHICF_DATASET_DIR
 
 For example:
 
+### Linux/macOS
+
 ```bash
 export AHICF_BASE_DIR=/path/to/AHICF
 export AHICF_DATASET_DIR=/path/to/Dataset
 ```
 
-On Windows PowerShell:
+### Windows PowerShell
 
 ```powershell
 $env:AHICF_BASE_DIR="C:\path\to\AHICF"
@@ -308,11 +308,13 @@ The corresponding configuration is implemented in:
 src/config.py
 ```
 
+The configuration supports both the historical Google Colab development environment and local/Docker execution through environment-variable overrides.
+
 ---
 
 # 8. RETFound Feature Branch
 
-Stage **2b** provides an optional feature-extraction branch using **RETFound**, a retina-specific foundation model.
+Stage 2b provides an optional feature-extraction branch using RETFound, a retina-specific foundation model.
 
 This stage:
 
@@ -323,7 +325,7 @@ This stage:
 
 If the RETFound weights cannot be obtained, the implementation may fall back to an ImageNet-pretrained ViT-Large model with a console warning.
 
-> **Important:** Results generated using the fallback model must **not** be reported as RETFound results. Users reproducing the RETFound experiments should verify that the intended pretrained weights were successfully loaded before interpreting or reporting the results.
+> **Important:** Results generated using the fallback model must not be reported as RETFound results. Users reproducing the RETFound experiments should verify that the intended pretrained weights were successfully loaded before interpreting or reporting the results.
 
 ---
 
@@ -336,10 +338,10 @@ The following values correspond to the manuscript analysis and are also availabl
 The reported ensemble performance is:
 
 * **Macro-F1:** 0.524
-  95% CI: 0.454–0.584
+  **95% CI:** 0.454–0.584
 
 * **Quadratic-weighted kappa (QWK):** 0.762
-  95% CI: 0.709–0.807
+  **95% CI:** 0.709–0.807
 
 Five-fold cross-validation produced:
 
@@ -430,7 +432,7 @@ results/
     Cross-dataset results
 ```
 
-Therefore, users do **not** need to rerun the complete pipeline simply to inspect the reported results.
+Therefore, users do not need to rerun the complete pipeline simply to inspect the reported results.
 
 ---
 
@@ -456,7 +458,7 @@ Exact numerical reproduction may still vary across hardware, operating-system, P
 
 # 12. Feature Optimization
 
-Stage 3 performs adaptive multi-objective feature optimization using the **NSGA-II** algorithm.
+Stage 3 performs adaptive multi-objective feature optimization using the NSGA-II algorithm.
 
 The optimized feature representation is saved as:
 
@@ -517,7 +519,7 @@ An auxiliary Stage 6b analysis additionally evaluates:
 * DME risk classification;
 * confound-isolated referral behavior.
 
-The clinical decision-support outputs are intended as computational research results and **not as a standalone clinical diagnostic system**.
+The clinical decision-support outputs are intended as computational research results and not as a standalone clinical diagnostic system.
 
 Further validation using large, independent clinical cohorts is required before clinical deployment.
 
@@ -536,13 +538,13 @@ Several limitations should be considered when reproducing or extending this work
 * The clinical referral analysis is computational and does not constitute prospective clinical validation.
 * Further validation on larger and independently collected clinical cohorts is required.
 
-Accordingly, the results demonstrate **measurable domain-adaptation behavior and cross-dataset generalization under the evaluated experimental conditions**, rather than complete robustness across all clinical settings.
+Accordingly, the results demonstrate measurable domain-adaptation behavior and cross-dataset generalization under the evaluated experimental conditions, rather than complete robustness across all clinical settings.
 
 ---
 
 # 18. Known Issues and Reproducibility Notes
 
-### 18.1 Configuration paths
+## 18.1 Configuration paths
 
 Earlier development versions of the project used a hard-coded Google Drive path:
 
@@ -567,11 +569,11 @@ before running the pipeline.
 
 ---
 
-### 18.2 Dependency versions
+## 18.2 Dependency versions
 
 The supplied `requirements.txt` describes the dependencies required by the reconstructed pipeline.
 
-It is **not a pip-freeze of the exact environment used to generate every manuscript result**.
+It is not a pip-freeze of the exact environment used to generate every manuscript result.
 
 For exact numerical reproduction, differences in versions of packages such as:
 
@@ -589,7 +591,7 @@ Where exact historical reproduction is required, the original training environme
 
 ---
 
-### 18.3 Pipeline coverage
+## 18.3 Pipeline coverage
 
 Not every analysis script in `src/` is automatically invoked by `main.py`.
 
@@ -599,6 +601,7 @@ The following analyses require manual execution:
 Stage 2b — RETFound feature branch
 Stage 7d — Causal class-balance analysis
 Stage 9  — Benchmark comparison
+
 stage_error_analysis.py
 stage_image_quality.py
 stage_ood_detection.py
@@ -610,7 +613,7 @@ This is intentional: these analyses are maintained as auxiliary or standalone co
 
 ---
 
-### 18.4 RETFound fallback
+## 18.4 RETFound fallback
 
 The Stage 2b implementation may fall back to an ImageNet-pretrained ViT-Large model if RETFound weights are unavailable.
 
@@ -625,10 +628,10 @@ Fallback outputs should not be labeled or reported as RETFound results.
 The repository contains the original Google Colab development notebook for provenance:
 
 ```text
-notebooks/Untitled0 (1).ipynb
+notebooks/AHICF_Reproducibility_Notebook.ipynb
 ```
 
-The notebook contains development references to Google Drive paths and is **not required for the primary reproduction workflow**.
+The notebook contains development references to Google Drive paths and is not required for the primary reproduction workflow.
 
 For reproducibility, use:
 
@@ -648,27 +651,27 @@ A recommended reproduction sequence is:
 
 ```text
 1. Obtain the APTOS, IDRiD, and Messidor datasets
-                ↓
+                    ↓
 2. Place datasets under Dataset/
-                ↓
+                    ↓
 3. Configure AHICF_BASE_DIR and AHICF_DATASET_DIR
-                ↓
+                    ↓
 4. Install dependencies or build the Docker image
-                ↓
+                    ↓
 5. Run Stage 0
-                ↓
+                    ↓
 6. Run Stages 1–4
-                ↓
+                    ↓
 7. Run Stage 5 explainability analyses
-                ↓
+                    ↓
 8. Run Stage 6 clinical decision-support analysis
-                ↓
+                    ↓
 9. Run Stage 7 cross-dataset/domain-adaptation evaluation
-                ↓
+                    ↓
 10. Run Stage 8 statistical validation
-                ↓
+                    ↓
 11. Run auxiliary analyses as required
-                ↓
+                    ↓
 12. Compare regenerated outputs with results/
 ```
 
@@ -700,7 +703,7 @@ The citation metadata should be updated with the final author list, journal info
 
 # 22. License
 
-The source code in this repository is released under the **MIT License**.
+The source code in this repository is released under the MIT License.
 
 See:
 
@@ -710,13 +713,13 @@ LICENSE
 
 for the complete license text.
 
-The raw retinal datasets are **not covered by the repository's MIT License**. Each dataset remains subject to its own license, access conditions, and terms of use.
+The raw retinal datasets are not covered by the repository's MIT License. Each dataset remains subject to its own license, access conditions, and terms of use.
 
 ---
 
 # 23. Disclaimer
 
-This repository is provided for **research and reproducibility purposes**.
+This repository is provided for research and reproducibility purposes.
 
 The AHICF models and clinical decision-support components are not intended to replace professional ophthalmic examination, diagnosis, or clinical judgment.
 
@@ -724,18 +727,28 @@ The reported experiments demonstrate performance under the datasets and experime
 
 ---
 
-## 24. Repository Summary
+# 24. Repository Summary
 
-**Framework:** AHICF — Adaptive Hybrid Intelligent Clinical Framework
-**Task:** Automated diabetic retinopathy grading and clinical decision support
-**Datasets:** APTOS, IDRiD, Messidor
-**Feature learning:** CNN + Vision Transformer + handcrafted features
-**Feature optimization:** NSGA-II multi-objective optimization
-**Classifier:** Confidence-weighted ensemble
-**Domain adaptation:** Supervised target-domain adaptation
-**Explainability:** Grad-CAM + SHAP
-**Evaluation:** In-distribution, cross-dataset, leave-one-dataset-out, ablation, calibration, statistical, OOD, and class-balance analyses
-**Primary seed:** 42
-**Environment:** Python 3.10–3.12; Docker-supported
-**License:** MIT for source code
-**Raw datasets:** Not redistributed
+| Component            | Description                                                                                                                |
+| -------------------- | -------------------------------------------------------------------------------------------------------------------------- |
+| Framework            | AHICF — Adaptive Hybrid Intelligent Clinical Framework                                                                     |
+| Task                 | Automated diabetic retinopathy grading and clinical decision support                                                       |
+| Datasets             | APTOS, IDRiD, Messidor                                                                                                     |
+| Feature learning     | CNN + Vision Transformer + handcrafted features                                                                            |
+| Feature optimization | NSGA-II multi-objective optimization                                                                                       |
+| Classifier           | Confidence-weighted ensemble                                                                                               |
+| Domain adaptation    | Supervised target-domain adaptation                                                                                        |
+| Explainability       | Grad-CAM + SHAP                                                                                                            |
+| Evaluation           | In-distribution, cross-dataset, leave-one-dataset-out, ablation, calibration, statistical, OOD, and class-balance analyses |
+| Primary seed         | 42                                                                                                                         |
+| Environment          | Python 3.10–3.12; Docker-supported                                                                                         |
+| License              | MIT for source code                                                                                                        |
+| Raw datasets         | Not redistributed                                                                                                          |
+
+---
+
+## Reproducibility Statement
+
+This repository is intended to provide a transparent and reproducible implementation of the AHICF experimental workflow. Precomputed outputs are included where applicable so that reported analyses can be inspected without requiring immediate access to the original training environment.
+
+Because the original retinal datasets are externally distributed and dependency versions may affect numerical results, exact bit-level reproduction cannot be guaranteed across all systems. Users should document the dataset versions, software environment, hardware, and configuration used when reproducing or extending the reported experiments.
